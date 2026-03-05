@@ -1,6 +1,10 @@
 package tzkit
 
-import "slices"
+import (
+	"fmt"
+	"slices"
+	"time"
+)
 
 // Timezone represents an IANA timezone with its offsets and abbreviations.
 type Timezone struct {
@@ -11,6 +15,8 @@ type Timezone struct {
 	DSTOffset       int      `json:"dst_offset"`
 	SDTAbbreviation string   `json:"sdt_abbreviation"`
 	DSTAbbreviation string   `json:"dst_abbreviation"`
+	SDTName         string   `json:"sdt_name"`
+	DSTName         string   `json:"dst_name"`
 	Link            string   `json:"link"`
 }
 
@@ -45,4 +51,41 @@ func TimezonesByCountry(countryCode string) []Timezone {
 // HasDST reports whether the timezone observes daylight saving time.
 func (tz Timezone) HasDST() bool {
 	return tz.SDTOffset != tz.DSTOffset
+}
+
+// In converts a time.Time to this timezone.
+func (tz Timezone) In(t time.Time) time.Time {
+	loc, err := time.LoadLocation(tz.ID)
+	if err != nil {
+		return t
+	}
+	return t.In(loc)
+}
+
+// FormatTime formats a time.Time in this timezone like:
+// "Thu Mar 05 2026 11:50:27 GMT-0700 (Mountain Standard Time)"
+func (tz Timezone) FormatTime(t time.Time) string {
+	loc, err := time.LoadLocation(tz.ID)
+	if err != nil {
+		loc = time.UTC
+	}
+	t = t.In(loc)
+
+	_, offset := t.Zone()
+	hours := offset / 3600
+	mins := (offset % 3600) / 60
+	if mins < 0 {
+		mins = -mins
+	}
+
+	name := tz.SDTName
+	if tz.HasDST() && t.IsDST() {
+		name = tz.DSTName
+	}
+
+	return fmt.Sprintf(
+		"%s GMT%+03d%02d (%s)",
+		t.Format("Mon Jan 02 2006 15:04:05"),
+		hours, mins, name,
+	)
 }

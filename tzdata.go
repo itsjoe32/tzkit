@@ -1002,6 +1002,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       0,
 		SDTAbbreviation: "GMT",
 		DSTAbbreviation: "GMT",
+		SDTName:         "Greenwich Mean Time",
+		DSTName:         "",
 		Link:            "",
 	},
 	"Africa/Accra": {
@@ -1012,6 +1014,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       0,
 		SDTAbbreviation: "GMT",
 		DSTAbbreviation: "GMT",
+		SDTName:         "Greenwich Mean Time",
+		DSTName:         "",
 		Link:            "Africa/Abidjan",
 	},
 	"Africa/Addis_Ababa": {
@@ -1022,6 +1026,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       180,
 		SDTAbbreviation: "EAT",
 		DSTAbbreviation: "EAT",
+		SDTName:         "East Africa Time",
+		DSTName:         "",
 		Link:            "Africa/Nairobi",
 	},
 	"Africa/Algiers": {
@@ -1032,6 +1038,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       60,
 		SDTAbbreviation: "CET",
 		DSTAbbreviation: "CET",
+		SDTName:         "Central European Standard Time",
+		DSTName:         "Central European Summer Time",
 		Link:            "",
 	},
 	"Africa/Asmara": {
@@ -1042,6 +1050,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       180,
 		SDTAbbreviation: "EAT",
 		DSTAbbreviation: "EAT",
+		SDTName:         "",
+		DSTName:         "",
 		Link:            "Africa/Nairobi",
 	},
 	"Africa/Asmera": {
@@ -1052,6 +1062,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       180,
 		SDTAbbreviation: "EAT",
 		DSTAbbreviation: "EAT",
+		SDTName:         "East Africa Time",
+		DSTName:         "",
 		Link:            "Africa/Nairobi",
 	},
 	"Africa/Bamako": {
@@ -1062,6 +1074,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       0,
 		SDTAbbreviation: "GMT",
 		DSTAbbreviation: "GMT",
+		SDTName:         "Greenwich Mean Time",
+		DSTName:         "",
 		Link:            "Africa/Abidjan",
 	},
 	"Africa/Bangui": {
@@ -1072,6 +1086,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       60,
 		SDTAbbreviation: "WAT",
 		DSTAbbreviation: "WAT",
+		SDTName:         "West Africa Time",
+		DSTName:         "",
 		Link:            "Africa/Lagos",
 	},
 	"Africa/Banjul": {
@@ -1082,6 +1098,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       0,
 		SDTAbbreviation: "GMT",
 		DSTAbbreviation: "GMT",
+		SDTName:         "Greenwich Mean Time",
+		DSTName:         "",
 		Link:            "Africa/Abidjan",
 	},
 	"Africa/Bissau": {
@@ -1092,6 +1110,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       0,
 		SDTAbbreviation: "GMT",
 		DSTAbbreviation: "GMT",
+		SDTName:         "Greenwich Mean Time",
+		DSTName:         "",
 		Link:            "",
 	},
 	"Africa/Blantyre": {
@@ -1102,6 +1122,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       120,
 		SDTAbbreviation: "CAT",
 		DSTAbbreviation: "CAT",
+		SDTName:         "Central Africa Time",
+		DSTName:         "",
 		Link:            "Africa/Maputo",
 	},
 	"Africa/Brazzaville": {
@@ -1112,6 +1134,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       60,
 		SDTAbbreviation: "WAT",
 		DSTAbbreviation: "WAT",
+		SDTName:         "West Africa Time",
+		DSTName:         "",
 		Link:            "Africa/Lagos",
 	},
 	"Africa/Bujumbura": {
@@ -1122,6 +1146,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       120,
 		SDTAbbreviation: "CAT",
 		DSTAbbreviation: "CAT",
+		SDTName:         "Central Africa Time",
+		DSTName:         "",
 		Link:            "Africa/Maputo",
 	},
 	"Africa/Cairo": {
@@ -1132,6 +1158,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       180,
 		SDTAbbreviation: "EET",
 		DSTAbbreviation: "EEST",
+		SDTName:         "Eastern European Standard Time",
+		DSTName:         "Eastern European Summer Time",
 		Link:            "",
 	},
 	"Africa/Casablanca": {
@@ -1142,6 +1170,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       0,
 		SDTAbbreviation: "+01",
 		DSTAbbreviation: "+00",
+		SDTName:         "",
+		DSTName:         "",
 		Link:            "",
 	},
 	"Africa/Ceuta": {
@@ -1152,6 +1182,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       120,
 		SDTAbbreviation: "CET",
 		DSTAbbreviation: "CEST",
+		SDTName:         "Central European Standard Time",
+		DSTName:         "Central European Summer Time",
 		Link:            "",
 	},
 	"Africa/Conakry": {
@@ -1162,6 +1194,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       0,
 		SDTAbbreviation: "GMT",
 		DSTAbbreviation: "GMT",
+		SDTName:         "Greenwich Mean Time",
+		DSTName:         "",
 		Link:            "Africa/Abidjan",
 	},
 	"Africa/Dakar": {
@@ -1172,6 +1206,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       0,
 		SDTAbbreviation: "GMT",
 		DSTAbbreviation: "GMT",
+		SDTName:         "Greenwich Mean Time",
+		DSTName:         "",
 		Link:            "Africa/Abidjan",
 	},
 	"Africa/Dar_es_Salaam": {
@@ -1182,6 +1218,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       180,
 		SDTAbbreviation: "EAT",
 		DSTAbbreviation: "EAT",
+		SDTName:         "East Africa Time",
+		DSTName:         "",
 		Link:            "Africa/Nairobi",
 	},
 	"Africa/Djibouti": {
@@ -1192,6 +1230,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       180,
 		SDTAbbreviation: "EAT",
 		DSTAbbreviation: "EAT",
+		SDTName:         "East Africa Time",
+		DSTName:         "",
 		Link:            "Africa/Nairobi",
 	},
 	"Africa/Douala": {
@@ -1202,6 +1242,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       60,
 		SDTAbbreviation: "WAT",
 		DSTAbbreviation: "WAT",
+		SDTName:         "West Africa Time",
+		DSTName:         "",
 		Link:            "Africa/Lagos",
 	},
 	"Africa/El_Aaiun": {
@@ -1212,6 +1254,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       0,
 		SDTAbbreviation: "+01",
 		DSTAbbreviation: "+00",
+		SDTName:         "",
+		DSTName:         "",
 		Link:            "",
 	},
 	"Africa/Freetown": {
@@ -1222,6 +1266,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       0,
 		SDTAbbreviation: "GMT",
 		DSTAbbreviation: "GMT",
+		SDTName:         "Greenwich Mean Time",
+		DSTName:         "",
 		Link:            "Africa/Abidjan",
 	},
 	"Africa/Gaborone": {
@@ -1232,6 +1278,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       120,
 		SDTAbbreviation: "CAT",
 		DSTAbbreviation: "CAT",
+		SDTName:         "Central Africa Time",
+		DSTName:         "",
 		Link:            "Africa/Maputo",
 	},
 	"Africa/Harare": {
@@ -1242,6 +1290,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       120,
 		SDTAbbreviation: "CAT",
 		DSTAbbreviation: "CAT",
+		SDTName:         "Central Africa Time",
+		DSTName:         "",
 		Link:            "Africa/Maputo",
 	},
 	"Africa/Johannesburg": {
@@ -1252,6 +1302,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       120,
 		SDTAbbreviation: "SAST",
 		DSTAbbreviation: "SAST",
+		SDTName:         "South Africa Standard Time",
+		DSTName:         "",
 		Link:            "",
 	},
 	"Africa/Juba": {
@@ -1262,6 +1314,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       120,
 		SDTAbbreviation: "CAT",
 		DSTAbbreviation: "CAT",
+		SDTName:         "Central Africa Time",
+		DSTName:         "",
 		Link:            "",
 	},
 	"Africa/Kampala": {
@@ -1272,6 +1326,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       180,
 		SDTAbbreviation: "EAT",
 		DSTAbbreviation: "EAT",
+		SDTName:         "East Africa Time",
+		DSTName:         "",
 		Link:            "Africa/Nairobi",
 	},
 	"Africa/Khartoum": {
@@ -1282,6 +1338,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       120,
 		SDTAbbreviation: "CAT",
 		DSTAbbreviation: "CAT",
+		SDTName:         "Central Africa Time",
+		DSTName:         "",
 		Link:            "",
 	},
 	"Africa/Kigali": {
@@ -1292,6 +1350,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       120,
 		SDTAbbreviation: "CAT",
 		DSTAbbreviation: "CAT",
+		SDTName:         "Central Africa Time",
+		DSTName:         "",
 		Link:            "Africa/Maputo",
 	},
 	"Africa/Kinshasa": {
@@ -1302,6 +1362,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       60,
 		SDTAbbreviation: "WAT",
 		DSTAbbreviation: "WAT",
+		SDTName:         "West Africa Time",
+		DSTName:         "",
 		Link:            "Africa/Lagos",
 	},
 	"Africa/Lagos": {
@@ -1312,6 +1374,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       60,
 		SDTAbbreviation: "WAT",
 		DSTAbbreviation: "WAT",
+		SDTName:         "West Africa Time",
+		DSTName:         "",
 		Link:            "",
 	},
 	"Africa/Libreville": {
@@ -1322,6 +1386,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       60,
 		SDTAbbreviation: "WAT",
 		DSTAbbreviation: "WAT",
+		SDTName:         "West Africa Time",
+		DSTName:         "",
 		Link:            "Africa/Lagos",
 	},
 	"Africa/Lome": {
@@ -1332,6 +1398,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       0,
 		SDTAbbreviation: "GMT",
 		DSTAbbreviation: "GMT",
+		SDTName:         "Greenwich Mean Time",
+		DSTName:         "",
 		Link:            "Africa/Abidjan",
 	},
 	"Africa/Luanda": {
@@ -1342,6 +1410,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       60,
 		SDTAbbreviation: "WAT",
 		DSTAbbreviation: "WAT",
+		SDTName:         "West Africa Time",
+		DSTName:         "",
 		Link:            "Africa/Lagos",
 	},
 	"Africa/Lubumbashi": {
@@ -1352,6 +1422,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       120,
 		SDTAbbreviation: "CAT",
 		DSTAbbreviation: "CAT",
+		SDTName:         "Central Africa Time",
+		DSTName:         "",
 		Link:            "Africa/Maputo",
 	},
 	"Africa/Lusaka": {
@@ -1362,6 +1434,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       120,
 		SDTAbbreviation: "CAT",
 		DSTAbbreviation: "CAT",
+		SDTName:         "Central Africa Time",
+		DSTName:         "",
 		Link:            "Africa/Maputo",
 	},
 	"Africa/Malabo": {
@@ -1372,6 +1446,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       60,
 		SDTAbbreviation: "WAT",
 		DSTAbbreviation: "WAT",
+		SDTName:         "West Africa Time",
+		DSTName:         "",
 		Link:            "Africa/Lagos",
 	},
 	"Africa/Maputo": {
@@ -1382,6 +1458,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       120,
 		SDTAbbreviation: "CAT",
 		DSTAbbreviation: "CAT",
+		SDTName:         "Central Africa Time",
+		DSTName:         "",
 		Link:            "",
 	},
 	"Africa/Maseru": {
@@ -1392,6 +1470,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       120,
 		SDTAbbreviation: "SAST",
 		DSTAbbreviation: "SAST",
+		SDTName:         "South Africa Standard Time",
+		DSTName:         "",
 		Link:            "Africa/Johannesburg",
 	},
 	"Africa/Mbabane": {
@@ -1402,6 +1482,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       120,
 		SDTAbbreviation: "SAST",
 		DSTAbbreviation: "SAST",
+		SDTName:         "South Africa Standard Time",
+		DSTName:         "",
 		Link:            "Africa/Johannesburg",
 	},
 	"Africa/Mogadishu": {
@@ -1412,6 +1494,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       180,
 		SDTAbbreviation: "EAT",
 		DSTAbbreviation: "EAT",
+		SDTName:         "East Africa Time",
+		DSTName:         "",
 		Link:            "Africa/Nairobi",
 	},
 	"Africa/Monrovia": {
@@ -1422,6 +1506,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       0,
 		SDTAbbreviation: "GMT",
 		DSTAbbreviation: "GMT",
+		SDTName:         "Greenwich Mean Time",
+		DSTName:         "",
 		Link:            "",
 	},
 	"Africa/Nairobi": {
@@ -1432,6 +1518,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       180,
 		SDTAbbreviation: "EAT",
 		DSTAbbreviation: "EAT",
+		SDTName:         "East Africa Time",
+		DSTName:         "",
 		Link:            "",
 	},
 	"Africa/Ndjamena": {
@@ -1442,6 +1530,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       60,
 		SDTAbbreviation: "WAT",
 		DSTAbbreviation: "WAT",
+		SDTName:         "West Africa Time",
+		DSTName:         "",
 		Link:            "",
 	},
 	"Africa/Niamey": {
@@ -1452,6 +1542,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       60,
 		SDTAbbreviation: "WAT",
 		DSTAbbreviation: "WAT",
+		SDTName:         "West Africa Time",
+		DSTName:         "",
 		Link:            "Africa/Lagos",
 	},
 	"Africa/Nouakchott": {
@@ -1462,6 +1554,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       0,
 		SDTAbbreviation: "GMT",
 		DSTAbbreviation: "GMT",
+		SDTName:         "Greenwich Mean Time",
+		DSTName:         "",
 		Link:            "Africa/Abidjan",
 	},
 	"Africa/Ouagadougou": {
@@ -1472,6 +1566,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       0,
 		SDTAbbreviation: "GMT",
 		DSTAbbreviation: "GMT",
+		SDTName:         "Greenwich Mean Time",
+		DSTName:         "",
 		Link:            "Africa/Abidjan",
 	},
 	"Africa/Porto-Novo": {
@@ -1482,6 +1578,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       60,
 		SDTAbbreviation: "WAT",
 		DSTAbbreviation: "WAT",
+		SDTName:         "West Africa Time",
+		DSTName:         "",
 		Link:            "Africa/Lagos",
 	},
 	"Africa/Sao_Tome": {
@@ -1492,6 +1590,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       0,
 		SDTAbbreviation: "GMT",
 		DSTAbbreviation: "GMT",
+		SDTName:         "Greenwich Mean Time",
+		DSTName:         "",
 		Link:            "",
 	},
 	"Africa/Timbuktu": {
@@ -1502,6 +1602,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       0,
 		SDTAbbreviation: "GMT",
 		DSTAbbreviation: "GMT",
+		SDTName:         "",
+		DSTName:         "",
 		Link:            "Africa/Abidjan",
 	},
 	"Africa/Tripoli": {
@@ -1512,6 +1614,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       120,
 		SDTAbbreviation: "EET",
 		DSTAbbreviation: "EET",
+		SDTName:         "Eastern European Standard Time",
+		DSTName:         "Eastern European Summer Time",
 		Link:            "",
 	},
 	"Africa/Tunis": {
@@ -1522,6 +1626,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       60,
 		SDTAbbreviation: "CET",
 		DSTAbbreviation: "CET",
+		SDTName:         "Central European Standard Time",
+		DSTName:         "Central European Summer Time",
 		Link:            "",
 	},
 	"Africa/Windhoek": {
@@ -1532,6 +1638,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       120,
 		SDTAbbreviation: "CAT",
 		DSTAbbreviation: "CAT",
+		SDTName:         "Central Africa Time",
+		DSTName:         "",
 		Link:            "",
 	},
 	"America/Adak": {
@@ -1542,6 +1650,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -540,
 		SDTAbbreviation: "HST",
 		DSTAbbreviation: "HDT",
+		SDTName:         "Hawaii-Aleutian Standard Time",
+		DSTName:         "Hawaii-Aleutian Daylight Time",
 		Link:            "",
 	},
 	"America/Anchorage": {
@@ -1552,6 +1662,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -480,
 		SDTAbbreviation: "AKST",
 		DSTAbbreviation: "AKDT",
+		SDTName:         "Alaska Standard Time",
+		DSTName:         "Alaska Daylight Time",
 		Link:            "",
 	},
 	"America/Anguilla": {
@@ -1562,6 +1674,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -240,
 		SDTAbbreviation: "AST",
 		DSTAbbreviation: "AST",
+		SDTName:         "Atlantic Standard Time",
+		DSTName:         "Atlantic Daylight Time",
 		Link:            "America/Puerto_Rico",
 	},
 	"America/Antigua": {
@@ -1572,6 +1686,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -240,
 		SDTAbbreviation: "AST",
 		DSTAbbreviation: "AST",
+		SDTName:         "Atlantic Standard Time",
+		DSTName:         "Atlantic Daylight Time",
 		Link:            "America/Puerto_Rico",
 	},
 	"America/Araguaina": {
@@ -1582,6 +1698,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -180,
 		SDTAbbreviation: "-03",
 		DSTAbbreviation: "-03",
+		SDTName:         "Brasilia Standard Time",
+		DSTName:         "Brasilia Summer Time",
 		Link:            "",
 	},
 	"America/Argentina/Buenos_Aires": {
@@ -1592,6 +1710,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -180,
 		SDTAbbreviation: "-03",
 		DSTAbbreviation: "-03",
+		SDTName:         "",
+		DSTName:         "",
 		Link:            "",
 	},
 	"America/Argentina/Catamarca": {
@@ -1602,6 +1722,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -180,
 		SDTAbbreviation: "-03",
 		DSTAbbreviation: "-03",
+		SDTName:         "",
+		DSTName:         "",
 		Link:            "",
 	},
 	"America/Argentina/ComodRivadavia": {
@@ -1612,6 +1734,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -180,
 		SDTAbbreviation: "-03",
 		DSTAbbreviation: "-03",
+		SDTName:         "",
+		DSTName:         "",
 		Link:            "America/Argentina/Catamarca",
 	},
 	"America/Argentina/Cordoba": {
@@ -1622,6 +1746,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -180,
 		SDTAbbreviation: "-03",
 		DSTAbbreviation: "-03",
+		SDTName:         "",
+		DSTName:         "",
 		Link:            "",
 	},
 	"America/Argentina/Jujuy": {
@@ -1632,6 +1758,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -180,
 		SDTAbbreviation: "-03",
 		DSTAbbreviation: "-03",
+		SDTName:         "",
+		DSTName:         "",
 		Link:            "",
 	},
 	"America/Argentina/La_Rioja": {
@@ -1642,6 +1770,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -180,
 		SDTAbbreviation: "-03",
 		DSTAbbreviation: "-03",
+		SDTName:         "Argentina Standard Time",
+		DSTName:         "Argentina Summer Time",
 		Link:            "",
 	},
 	"America/Argentina/Mendoza": {
@@ -1652,6 +1782,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -180,
 		SDTAbbreviation: "-03",
 		DSTAbbreviation: "-03",
+		SDTName:         "",
+		DSTName:         "",
 		Link:            "",
 	},
 	"America/Argentina/Rio_Gallegos": {
@@ -1662,6 +1794,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -180,
 		SDTAbbreviation: "-03",
 		DSTAbbreviation: "-03",
+		SDTName:         "Argentina Standard Time",
+		DSTName:         "Argentina Summer Time",
 		Link:            "",
 	},
 	"America/Argentina/Salta": {
@@ -1672,6 +1806,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -180,
 		SDTAbbreviation: "-03",
 		DSTAbbreviation: "-03",
+		SDTName:         "Argentina Standard Time",
+		DSTName:         "Argentina Summer Time",
 		Link:            "",
 	},
 	"America/Argentina/San_Juan": {
@@ -1682,6 +1818,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -180,
 		SDTAbbreviation: "-03",
 		DSTAbbreviation: "-03",
+		SDTName:         "Argentina Standard Time",
+		DSTName:         "Argentina Summer Time",
 		Link:            "",
 	},
 	"America/Argentina/San_Luis": {
@@ -1692,6 +1830,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -180,
 		SDTAbbreviation: "-03",
 		DSTAbbreviation: "-03",
+		SDTName:         "Argentina Standard Time",
+		DSTName:         "Argentina Summer Time",
 		Link:            "",
 	},
 	"America/Argentina/Tucuman": {
@@ -1702,6 +1842,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -180,
 		SDTAbbreviation: "-03",
 		DSTAbbreviation: "-03",
+		SDTName:         "Argentina Standard Time",
+		DSTName:         "Argentina Summer Time",
 		Link:            "",
 	},
 	"America/Argentina/Ushuaia": {
@@ -1712,6 +1854,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -180,
 		SDTAbbreviation: "-03",
 		DSTAbbreviation: "-03",
+		SDTName:         "Argentina Standard Time",
+		DSTName:         "Argentina Summer Time",
 		Link:            "",
 	},
 	"America/Aruba": {
@@ -1722,6 +1866,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -240,
 		SDTAbbreviation: "AST",
 		DSTAbbreviation: "AST",
+		SDTName:         "Atlantic Standard Time",
+		DSTName:         "Atlantic Daylight Time",
 		Link:            "America/Puerto_Rico",
 	},
 	"America/Asuncion": {
@@ -1732,6 +1878,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -180,
 		SDTAbbreviation: "-03",
 		DSTAbbreviation: "-03",
+		SDTName:         "Paraguay Standard Time",
+		DSTName:         "Paraguay Summer Time",
 		Link:            "",
 	},
 	"America/Atikokan": {
@@ -1742,6 +1890,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -300,
 		SDTAbbreviation: "EST",
 		DSTAbbreviation: "EST",
+		SDTName:         "",
+		DSTName:         "",
 		Link:            "America/Panama",
 	},
 	"America/Atka": {
@@ -1752,6 +1902,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -540,
 		SDTAbbreviation: "HST",
 		DSTAbbreviation: "HDT",
+		SDTName:         "",
+		DSTName:         "",
 		Link:            "America/Adak",
 	},
 	"America/Bahia": {
@@ -1762,6 +1914,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -180,
 		SDTAbbreviation: "-03",
 		DSTAbbreviation: "-03",
+		SDTName:         "Brasilia Standard Time",
+		DSTName:         "Brasilia Summer Time",
 		Link:            "",
 	},
 	"America/Bahia_Banderas": {
@@ -1772,6 +1926,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -360,
 		SDTAbbreviation: "CST",
 		DSTAbbreviation: "CST",
+		SDTName:         "Central Standard Time",
+		DSTName:         "Central Daylight Time",
 		Link:            "",
 	},
 	"America/Barbados": {
@@ -1782,6 +1938,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -240,
 		SDTAbbreviation: "AST",
 		DSTAbbreviation: "AST",
+		SDTName:         "Atlantic Standard Time",
+		DSTName:         "Atlantic Daylight Time",
 		Link:            "",
 	},
 	"America/Belem": {
@@ -1792,6 +1950,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -180,
 		SDTAbbreviation: "-03",
 		DSTAbbreviation: "-03",
+		SDTName:         "Brasilia Standard Time",
+		DSTName:         "Brasilia Summer Time",
 		Link:            "",
 	},
 	"America/Belize": {
@@ -1802,6 +1962,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -360,
 		SDTAbbreviation: "CST",
 		DSTAbbreviation: "CST",
+		SDTName:         "Central Standard Time",
+		DSTName:         "Central Daylight Time",
 		Link:            "",
 	},
 	"America/Blanc-Sablon": {
@@ -1812,6 +1974,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -240,
 		SDTAbbreviation: "AST",
 		DSTAbbreviation: "AST",
+		SDTName:         "Atlantic Standard Time",
+		DSTName:         "Atlantic Daylight Time",
 		Link:            "America/Puerto_Rico",
 	},
 	"America/Boa_Vista": {
@@ -1822,6 +1986,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -240,
 		SDTAbbreviation: "-04",
 		DSTAbbreviation: "-04",
+		SDTName:         "Amazon Standard Time",
+		DSTName:         "Amazon Summer Time",
 		Link:            "",
 	},
 	"America/Bogota": {
@@ -1832,6 +1998,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -300,
 		SDTAbbreviation: "-05",
 		DSTAbbreviation: "-05",
+		SDTName:         "Colombia Standard Time",
+		DSTName:         "Colombia Summer Time",
 		Link:            "",
 	},
 	"America/Boise": {
@@ -1842,6 +2010,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -360,
 		SDTAbbreviation: "MST",
 		DSTAbbreviation: "MDT",
+		SDTName:         "Mountain Standard Time",
+		DSTName:         "Mountain Daylight Time",
 		Link:            "",
 	},
 	"America/Buenos_Aires": {
@@ -1852,6 +2022,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -180,
 		SDTAbbreviation: "-03",
 		DSTAbbreviation: "-03",
+		SDTName:         "Argentina Standard Time",
+		DSTName:         "Argentina Summer Time",
 		Link:            "America/Argentina/Buenos_Aires",
 	},
 	"America/Cambridge_Bay": {
@@ -1862,6 +2034,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -360,
 		SDTAbbreviation: "MST",
 		DSTAbbreviation: "MDT",
+		SDTName:         "Mountain Standard Time",
+		DSTName:         "Mountain Daylight Time",
 		Link:            "",
 	},
 	"America/Campo_Grande": {
@@ -1872,6 +2046,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -240,
 		SDTAbbreviation: "-04",
 		DSTAbbreviation: "-04",
+		SDTName:         "Amazon Standard Time",
+		DSTName:         "Amazon Summer Time",
 		Link:            "",
 	},
 	"America/Cancun": {
@@ -1882,6 +2058,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -300,
 		SDTAbbreviation: "EST",
 		DSTAbbreviation: "EST",
+		SDTName:         "Eastern Standard Time",
+		DSTName:         "Eastern Daylight Time",
 		Link:            "",
 	},
 	"America/Caracas": {
@@ -1892,6 +2070,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -240,
 		SDTAbbreviation: "-04",
 		DSTAbbreviation: "-04",
+		SDTName:         "Venezuela Time",
+		DSTName:         "",
 		Link:            "",
 	},
 	"America/Catamarca": {
@@ -1902,6 +2082,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -180,
 		SDTAbbreviation: "-03",
 		DSTAbbreviation: "-03",
+		SDTName:         "Argentina Standard Time",
+		DSTName:         "Argentina Summer Time",
 		Link:            "America/Argentina/Catamarca",
 	},
 	"America/Cayenne": {
@@ -1912,6 +2094,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -180,
 		SDTAbbreviation: "-03",
 		DSTAbbreviation: "-03",
+		SDTName:         "French Guiana Time",
+		DSTName:         "",
 		Link:            "",
 	},
 	"America/Cayman": {
@@ -1922,6 +2106,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -300,
 		SDTAbbreviation: "EST",
 		DSTAbbreviation: "EST",
+		SDTName:         "Eastern Standard Time",
+		DSTName:         "Eastern Daylight Time",
 		Link:            "America/Panama",
 	},
 	"America/Chicago": {
@@ -1932,6 +2118,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -300,
 		SDTAbbreviation: "CST",
 		DSTAbbreviation: "CDT",
+		SDTName:         "Central Standard Time",
+		DSTName:         "Central Daylight Time",
 		Link:            "",
 	},
 	"America/Chihuahua": {
@@ -1942,6 +2130,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -360,
 		SDTAbbreviation: "CST",
 		DSTAbbreviation: "CST",
+		SDTName:         "Central Standard Time",
+		DSTName:         "Central Daylight Time",
 		Link:            "",
 	},
 	"America/Ciudad_Juarez": {
@@ -1952,6 +2142,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -360,
 		SDTAbbreviation: "MST",
 		DSTAbbreviation: "MDT",
+		SDTName:         "Mountain Standard Time",
+		DSTName:         "Mountain Daylight Time",
 		Link:            "",
 	},
 	"America/Coral_Harbour": {
@@ -1962,6 +2154,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -300,
 		SDTAbbreviation: "EST",
 		DSTAbbreviation: "EST",
+		SDTName:         "Eastern Standard Time",
+		DSTName:         "Eastern Daylight Time",
 		Link:            "America/Panama",
 	},
 	"America/Cordoba": {
@@ -1972,6 +2166,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -180,
 		SDTAbbreviation: "-03",
 		DSTAbbreviation: "-03",
+		SDTName:         "Argentina Standard Time",
+		DSTName:         "Argentina Summer Time",
 		Link:            "America/Argentina/Cordoba",
 	},
 	"America/Costa_Rica": {
@@ -1982,6 +2178,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -360,
 		SDTAbbreviation: "CST",
 		DSTAbbreviation: "CST",
+		SDTName:         "Central Standard Time",
+		DSTName:         "Central Daylight Time",
 		Link:            "",
 	},
 	"America/Coyhaique": {
@@ -1992,6 +2190,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -180,
 		SDTAbbreviation: "-03",
 		DSTAbbreviation: "-03",
+		SDTName:         "",
+		DSTName:         "",
 		Link:            "",
 	},
 	"America/Creston": {
@@ -2002,6 +2202,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -420,
 		SDTAbbreviation: "MST",
 		DSTAbbreviation: "MST",
+		SDTName:         "Mountain Standard Time",
+		DSTName:         "Mountain Daylight Time",
 		Link:            "America/Phoenix",
 	},
 	"America/Cuiaba": {
@@ -2012,6 +2214,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -240,
 		SDTAbbreviation: "-04",
 		DSTAbbreviation: "-04",
+		SDTName:         "Amazon Standard Time",
+		DSTName:         "Amazon Summer Time",
 		Link:            "",
 	},
 	"America/Curacao": {
@@ -2022,6 +2226,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -240,
 		SDTAbbreviation: "AST",
 		DSTAbbreviation: "AST",
+		SDTName:         "Atlantic Standard Time",
+		DSTName:         "Atlantic Daylight Time",
 		Link:            "America/Puerto_Rico",
 	},
 	"America/Danmarkshavn": {
@@ -2032,6 +2238,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       0,
 		SDTAbbreviation: "GMT",
 		DSTAbbreviation: "GMT",
+		SDTName:         "Greenwich Mean Time",
+		DSTName:         "",
 		Link:            "",
 	},
 	"America/Dawson": {
@@ -2042,6 +2250,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -420,
 		SDTAbbreviation: "MST",
 		DSTAbbreviation: "MST",
+		SDTName:         "Yukon Time",
+		DSTName:         "",
 		Link:            "",
 	},
 	"America/Dawson_Creek": {
@@ -2052,6 +2262,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -420,
 		SDTAbbreviation: "MST",
 		DSTAbbreviation: "MST",
+		SDTName:         "Mountain Standard Time",
+		DSTName:         "Mountain Daylight Time",
 		Link:            "",
 	},
 	"America/Denver": {
@@ -2062,6 +2274,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -360,
 		SDTAbbreviation: "MST",
 		DSTAbbreviation: "MDT",
+		SDTName:         "Mountain Standard Time",
+		DSTName:         "Mountain Daylight Time",
 		Link:            "",
 	},
 	"America/Detroit": {
@@ -2072,6 +2286,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -240,
 		SDTAbbreviation: "EST",
 		DSTAbbreviation: "EDT",
+		SDTName:         "Eastern Standard Time",
+		DSTName:         "Eastern Daylight Time",
 		Link:            "",
 	},
 	"America/Dominica": {
@@ -2082,6 +2298,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -240,
 		SDTAbbreviation: "AST",
 		DSTAbbreviation: "AST",
+		SDTName:         "Atlantic Standard Time",
+		DSTName:         "Atlantic Daylight Time",
 		Link:            "America/Puerto_Rico",
 	},
 	"America/Edmonton": {
@@ -2092,6 +2310,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -360,
 		SDTAbbreviation: "MST",
 		DSTAbbreviation: "MDT",
+		SDTName:         "Mountain Standard Time",
+		DSTName:         "Mountain Daylight Time",
 		Link:            "",
 	},
 	"America/Eirunepe": {
@@ -2102,6 +2322,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -300,
 		SDTAbbreviation: "-05",
 		DSTAbbreviation: "-05",
+		SDTName:         "Acre Standard Time",
+		DSTName:         "Acre Summer Time",
 		Link:            "",
 	},
 	"America/El_Salvador": {
@@ -2112,6 +2334,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -360,
 		SDTAbbreviation: "CST",
 		DSTAbbreviation: "CST",
+		SDTName:         "Central Standard Time",
+		DSTName:         "Central Daylight Time",
 		Link:            "",
 	},
 	"America/Ensenada": {
@@ -2122,6 +2346,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -420,
 		SDTAbbreviation: "PST",
 		DSTAbbreviation: "PDT",
+		SDTName:         "",
+		DSTName:         "",
 		Link:            "America/Tijuana",
 	},
 	"America/Fort_Nelson": {
@@ -2132,6 +2358,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -420,
 		SDTAbbreviation: "MST",
 		DSTAbbreviation: "MST",
+		SDTName:         "Mountain Standard Time",
+		DSTName:         "Mountain Daylight Time",
 		Link:            "",
 	},
 	"America/Fort_Wayne": {
@@ -2142,6 +2370,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -240,
 		SDTAbbreviation: "EST",
 		DSTAbbreviation: "EDT",
+		SDTName:         "",
+		DSTName:         "",
 		Link:            "America/Indiana/Indianapolis",
 	},
 	"America/Fortaleza": {
@@ -2152,6 +2382,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -180,
 		SDTAbbreviation: "-03",
 		DSTAbbreviation: "-03",
+		SDTName:         "Brasilia Standard Time",
+		DSTName:         "Brasilia Summer Time",
 		Link:            "",
 	},
 	"America/Glace_Bay": {
@@ -2162,6 +2394,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -180,
 		SDTAbbreviation: "AST",
 		DSTAbbreviation: "ADT",
+		SDTName:         "Atlantic Standard Time",
+		DSTName:         "Atlantic Daylight Time",
 		Link:            "",
 	},
 	"America/Godthab": {
@@ -2172,6 +2406,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -60,
 		SDTAbbreviation: "-02",
 		DSTAbbreviation: "-01",
+		SDTName:         "Greenland Standard Time",
+		DSTName:         "Greenland Summer Time",
 		Link:            "America/Nuuk",
 	},
 	"America/Goose_Bay": {
@@ -2182,6 +2418,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -180,
 		SDTAbbreviation: "AST",
 		DSTAbbreviation: "ADT",
+		SDTName:         "Atlantic Standard Time",
+		DSTName:         "Atlantic Daylight Time",
 		Link:            "",
 	},
 	"America/Grand_Turk": {
@@ -2192,6 +2430,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -240,
 		SDTAbbreviation: "EST",
 		DSTAbbreviation: "EDT",
+		SDTName:         "Eastern Standard Time",
+		DSTName:         "Eastern Daylight Time",
 		Link:            "",
 	},
 	"America/Grenada": {
@@ -2202,6 +2442,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -240,
 		SDTAbbreviation: "AST",
 		DSTAbbreviation: "AST",
+		SDTName:         "Atlantic Standard Time",
+		DSTName:         "Atlantic Daylight Time",
 		Link:            "America/Puerto_Rico",
 	},
 	"America/Guadeloupe": {
@@ -2212,6 +2454,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -240,
 		SDTAbbreviation: "AST",
 		DSTAbbreviation: "AST",
+		SDTName:         "Atlantic Standard Time",
+		DSTName:         "Atlantic Daylight Time",
 		Link:            "America/Puerto_Rico",
 	},
 	"America/Guatemala": {
@@ -2222,6 +2466,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -360,
 		SDTAbbreviation: "CST",
 		DSTAbbreviation: "CST",
+		SDTName:         "Central Standard Time",
+		DSTName:         "Central Daylight Time",
 		Link:            "",
 	},
 	"America/Guayaquil": {
@@ -2232,6 +2478,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -300,
 		SDTAbbreviation: "-05",
 		DSTAbbreviation: "-05",
+		SDTName:         "Ecuador Time",
+		DSTName:         "",
 		Link:            "",
 	},
 	"America/Guyana": {
@@ -2242,6 +2490,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -240,
 		SDTAbbreviation: "-04",
 		DSTAbbreviation: "-04",
+		SDTName:         "Guyana Time",
+		DSTName:         "",
 		Link:            "",
 	},
 	"America/Halifax": {
@@ -2252,6 +2502,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -180,
 		SDTAbbreviation: "AST",
 		DSTAbbreviation: "ADT",
+		SDTName:         "Atlantic Standard Time",
+		DSTName:         "Atlantic Daylight Time",
 		Link:            "",
 	},
 	"America/Havana": {
@@ -2262,6 +2514,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -240,
 		SDTAbbreviation: "CST",
 		DSTAbbreviation: "CDT",
+		SDTName:         "Cuba Standard Time",
+		DSTName:         "Cuba Daylight Time",
 		Link:            "",
 	},
 	"America/Hermosillo": {
@@ -2272,6 +2526,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -420,
 		SDTAbbreviation: "MST",
 		DSTAbbreviation: "MST",
+		SDTName:         "Mexican Pacific Standard Time",
+		DSTName:         "Mexican Pacific Daylight Time",
 		Link:            "",
 	},
 	"America/Indiana/Indianapolis": {
@@ -2282,6 +2538,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -240,
 		SDTAbbreviation: "EST",
 		DSTAbbreviation: "EDT",
+		SDTName:         "",
+		DSTName:         "",
 		Link:            "",
 	},
 	"America/Indiana/Knox": {
@@ -2292,6 +2550,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -300,
 		SDTAbbreviation: "CST",
 		DSTAbbreviation: "CDT",
+		SDTName:         "Central Standard Time",
+		DSTName:         "Central Daylight Time",
 		Link:            "",
 	},
 	"America/Indiana/Marengo": {
@@ -2302,6 +2562,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -240,
 		SDTAbbreviation: "EST",
 		DSTAbbreviation: "EDT",
+		SDTName:         "Eastern Standard Time",
+		DSTName:         "Eastern Daylight Time",
 		Link:            "",
 	},
 	"America/Indiana/Petersburg": {
@@ -2312,6 +2574,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -240,
 		SDTAbbreviation: "EST",
 		DSTAbbreviation: "EDT",
+		SDTName:         "Eastern Standard Time",
+		DSTName:         "Eastern Daylight Time",
 		Link:            "",
 	},
 	"America/Indiana/Tell_City": {
@@ -2322,6 +2586,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -300,
 		SDTAbbreviation: "CST",
 		DSTAbbreviation: "CDT",
+		SDTName:         "Central Standard Time",
+		DSTName:         "Central Daylight Time",
 		Link:            "",
 	},
 	"America/Indiana/Vevay": {
@@ -2332,6 +2598,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -240,
 		SDTAbbreviation: "EST",
 		DSTAbbreviation: "EDT",
+		SDTName:         "Eastern Standard Time",
+		DSTName:         "Eastern Daylight Time",
 		Link:            "",
 	},
 	"America/Indiana/Vincennes": {
@@ -2342,6 +2610,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -240,
 		SDTAbbreviation: "EST",
 		DSTAbbreviation: "EDT",
+		SDTName:         "Eastern Standard Time",
+		DSTName:         "Eastern Daylight Time",
 		Link:            "",
 	},
 	"America/Indiana/Winamac": {
@@ -2352,6 +2622,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -240,
 		SDTAbbreviation: "EST",
 		DSTAbbreviation: "EDT",
+		SDTName:         "Eastern Standard Time",
+		DSTName:         "Eastern Daylight Time",
 		Link:            "",
 	},
 	"America/Indianapolis": {
@@ -2362,6 +2634,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -240,
 		SDTAbbreviation: "EST",
 		DSTAbbreviation: "EDT",
+		SDTName:         "Eastern Standard Time",
+		DSTName:         "Eastern Daylight Time",
 		Link:            "America/Indiana/Indianapolis",
 	},
 	"America/Inuvik": {
@@ -2372,6 +2646,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -360,
 		SDTAbbreviation: "MST",
 		DSTAbbreviation: "MDT",
+		SDTName:         "Mountain Standard Time",
+		DSTName:         "Mountain Daylight Time",
 		Link:            "",
 	},
 	"America/Iqaluit": {
@@ -2382,6 +2658,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -240,
 		SDTAbbreviation: "EST",
 		DSTAbbreviation: "EDT",
+		SDTName:         "Eastern Standard Time",
+		DSTName:         "Eastern Daylight Time",
 		Link:            "",
 	},
 	"America/Jamaica": {
@@ -2392,6 +2670,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -300,
 		SDTAbbreviation: "EST",
 		DSTAbbreviation: "EST",
+		SDTName:         "Eastern Standard Time",
+		DSTName:         "Eastern Daylight Time",
 		Link:            "",
 	},
 	"America/Jujuy": {
@@ -2402,6 +2682,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -180,
 		SDTAbbreviation: "-03",
 		DSTAbbreviation: "-03",
+		SDTName:         "Argentina Standard Time",
+		DSTName:         "Argentina Summer Time",
 		Link:            "America/Argentina/Jujuy",
 	},
 	"America/Juneau": {
@@ -2412,6 +2694,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -480,
 		SDTAbbreviation: "AKST",
 		DSTAbbreviation: "AKDT",
+		SDTName:         "Alaska Standard Time",
+		DSTName:         "Alaska Daylight Time",
 		Link:            "",
 	},
 	"America/Kentucky/Louisville": {
@@ -2422,6 +2706,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -240,
 		SDTAbbreviation: "EST",
 		DSTAbbreviation: "EDT",
+		SDTName:         "",
+		DSTName:         "",
 		Link:            "",
 	},
 	"America/Kentucky/Monticello": {
@@ -2432,6 +2718,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -240,
 		SDTAbbreviation: "EST",
 		DSTAbbreviation: "EDT",
+		SDTName:         "Eastern Standard Time",
+		DSTName:         "Eastern Daylight Time",
 		Link:            "",
 	},
 	"America/Knox_IN": {
@@ -2442,6 +2730,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -300,
 		SDTAbbreviation: "CST",
 		DSTAbbreviation: "CDT",
+		SDTName:         "",
+		DSTName:         "",
 		Link:            "America/Indiana/Knox",
 	},
 	"America/Kralendijk": {
@@ -2452,6 +2742,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -240,
 		SDTAbbreviation: "AST",
 		DSTAbbreviation: "AST",
+		SDTName:         "Atlantic Standard Time",
+		DSTName:         "Atlantic Daylight Time",
 		Link:            "America/Puerto_Rico",
 	},
 	"America/La_Paz": {
@@ -2462,6 +2754,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -240,
 		SDTAbbreviation: "-04",
 		DSTAbbreviation: "-04",
+		SDTName:         "Bolivia Time",
+		DSTName:         "",
 		Link:            "",
 	},
 	"America/Lima": {
@@ -2472,6 +2766,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -300,
 		SDTAbbreviation: "-05",
 		DSTAbbreviation: "-05",
+		SDTName:         "Peru Standard Time",
+		DSTName:         "Peru Summer Time",
 		Link:            "",
 	},
 	"America/Los_Angeles": {
@@ -2482,6 +2778,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -420,
 		SDTAbbreviation: "PST",
 		DSTAbbreviation: "PDT",
+		SDTName:         "Pacific Standard Time",
+		DSTName:         "Pacific Daylight Time",
 		Link:            "",
 	},
 	"America/Louisville": {
@@ -2492,6 +2790,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -240,
 		SDTAbbreviation: "EST",
 		DSTAbbreviation: "EDT",
+		SDTName:         "Eastern Standard Time",
+		DSTName:         "Eastern Daylight Time",
 		Link:            "America/Kentucky/Louisville",
 	},
 	"America/Lower_Princes": {
@@ -2502,6 +2802,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -240,
 		SDTAbbreviation: "AST",
 		DSTAbbreviation: "AST",
+		SDTName:         "Atlantic Standard Time",
+		DSTName:         "Atlantic Daylight Time",
 		Link:            "America/Puerto_Rico",
 	},
 	"America/Maceio": {
@@ -2512,6 +2814,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -180,
 		SDTAbbreviation: "-03",
 		DSTAbbreviation: "-03",
+		SDTName:         "Brasilia Standard Time",
+		DSTName:         "Brasilia Summer Time",
 		Link:            "",
 	},
 	"America/Managua": {
@@ -2522,6 +2826,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -360,
 		SDTAbbreviation: "CST",
 		DSTAbbreviation: "CST",
+		SDTName:         "Central Standard Time",
+		DSTName:         "Central Daylight Time",
 		Link:            "",
 	},
 	"America/Manaus": {
@@ -2532,6 +2838,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -240,
 		SDTAbbreviation: "-04",
 		DSTAbbreviation: "-04",
+		SDTName:         "Amazon Standard Time",
+		DSTName:         "Amazon Summer Time",
 		Link:            "",
 	},
 	"America/Marigot": {
@@ -2542,6 +2850,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -240,
 		SDTAbbreviation: "AST",
 		DSTAbbreviation: "AST",
+		SDTName:         "Atlantic Standard Time",
+		DSTName:         "Atlantic Daylight Time",
 		Link:            "America/Puerto_Rico",
 	},
 	"America/Martinique": {
@@ -2552,6 +2862,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -240,
 		SDTAbbreviation: "AST",
 		DSTAbbreviation: "AST",
+		SDTName:         "Atlantic Standard Time",
+		DSTName:         "Atlantic Daylight Time",
 		Link:            "",
 	},
 	"America/Matamoros": {
@@ -2562,6 +2874,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -300,
 		SDTAbbreviation: "CST",
 		DSTAbbreviation: "CDT",
+		SDTName:         "Central Standard Time",
+		DSTName:         "Central Daylight Time",
 		Link:            "",
 	},
 	"America/Mazatlan": {
@@ -2572,6 +2886,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -420,
 		SDTAbbreviation: "MST",
 		DSTAbbreviation: "MST",
+		SDTName:         "Mexican Pacific Standard Time",
+		DSTName:         "Mexican Pacific Daylight Time",
 		Link:            "",
 	},
 	"America/Mendoza": {
@@ -2582,6 +2898,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -180,
 		SDTAbbreviation: "-03",
 		DSTAbbreviation: "-03",
+		SDTName:         "Argentina Standard Time",
+		DSTName:         "Argentina Summer Time",
 		Link:            "America/Argentina/Mendoza",
 	},
 	"America/Menominee": {
@@ -2592,6 +2910,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -300,
 		SDTAbbreviation: "CST",
 		DSTAbbreviation: "CDT",
+		SDTName:         "Central Standard Time",
+		DSTName:         "Central Daylight Time",
 		Link:            "",
 	},
 	"America/Merida": {
@@ -2602,6 +2922,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -360,
 		SDTAbbreviation: "CST",
 		DSTAbbreviation: "CST",
+		SDTName:         "Central Standard Time",
+		DSTName:         "Central Daylight Time",
 		Link:            "",
 	},
 	"America/Metlakatla": {
@@ -2612,6 +2934,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -480,
 		SDTAbbreviation: "AKST",
 		DSTAbbreviation: "AKDT",
+		SDTName:         "Alaska Standard Time",
+		DSTName:         "Alaska Daylight Time",
 		Link:            "",
 	},
 	"America/Mexico_City": {
@@ -2622,6 +2946,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -360,
 		SDTAbbreviation: "CST",
 		DSTAbbreviation: "CST",
+		SDTName:         "Central Standard Time",
+		DSTName:         "Central Daylight Time",
 		Link:            "",
 	},
 	"America/Miquelon": {
@@ -2632,6 +2958,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -120,
 		SDTAbbreviation: "-03",
 		DSTAbbreviation: "-02",
+		SDTName:         "St. Pierre & Miquelon Standard Time",
+		DSTName:         "St. Pierre & Miquelon Daylight Time",
 		Link:            "",
 	},
 	"America/Moncton": {
@@ -2642,6 +2970,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -180,
 		SDTAbbreviation: "AST",
 		DSTAbbreviation: "ADT",
+		SDTName:         "Atlantic Standard Time",
+		DSTName:         "Atlantic Daylight Time",
 		Link:            "",
 	},
 	"America/Monterrey": {
@@ -2652,6 +2982,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -360,
 		SDTAbbreviation: "CST",
 		DSTAbbreviation: "CST",
+		SDTName:         "Central Standard Time",
+		DSTName:         "Central Daylight Time",
 		Link:            "",
 	},
 	"America/Montevideo": {
@@ -2662,6 +2994,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -180,
 		SDTAbbreviation: "-03",
 		DSTAbbreviation: "-03",
+		SDTName:         "Uruguay Standard Time",
+		DSTName:         "Uruguay Summer Time",
 		Link:            "",
 	},
 	"America/Montreal": {
@@ -2672,6 +3006,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -240,
 		SDTAbbreviation: "EST",
 		DSTAbbreviation: "EDT",
+		SDTName:         "",
+		DSTName:         "",
 		Link:            "America/Toronto",
 	},
 	"America/Montserrat": {
@@ -2682,6 +3018,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -240,
 		SDTAbbreviation: "AST",
 		DSTAbbreviation: "AST",
+		SDTName:         "Atlantic Standard Time",
+		DSTName:         "Atlantic Daylight Time",
 		Link:            "America/Puerto_Rico",
 	},
 	"America/Nassau": {
@@ -2692,6 +3030,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -240,
 		SDTAbbreviation: "EST",
 		DSTAbbreviation: "EDT",
+		SDTName:         "Eastern Standard Time",
+		DSTName:         "Eastern Daylight Time",
 		Link:            "America/Toronto",
 	},
 	"America/New_York": {
@@ -2702,6 +3042,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -240,
 		SDTAbbreviation: "EST",
 		DSTAbbreviation: "EDT",
+		SDTName:         "Eastern Standard Time",
+		DSTName:         "Eastern Daylight Time",
 		Link:            "",
 	},
 	"America/Nipigon": {
@@ -2712,6 +3054,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -240,
 		SDTAbbreviation: "EST",
 		DSTAbbreviation: "EDT",
+		SDTName:         "",
+		DSTName:         "",
 		Link:            "America/Toronto",
 	},
 	"America/Nome": {
@@ -2722,6 +3066,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -480,
 		SDTAbbreviation: "AKST",
 		DSTAbbreviation: "AKDT",
+		SDTName:         "Alaska Standard Time",
+		DSTName:         "Alaska Daylight Time",
 		Link:            "",
 	},
 	"America/Noronha": {
@@ -2732,6 +3078,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -120,
 		SDTAbbreviation: "-02",
 		DSTAbbreviation: "-02",
+		SDTName:         "Fernando de Noronha Standard Time",
+		DSTName:         "Fernando de Noronha Summer Time",
 		Link:            "",
 	},
 	"America/North_Dakota/Beulah": {
@@ -2742,6 +3090,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -300,
 		SDTAbbreviation: "CST",
 		DSTAbbreviation: "CDT",
+		SDTName:         "Central Standard Time",
+		DSTName:         "Central Daylight Time",
 		Link:            "",
 	},
 	"America/North_Dakota/Center": {
@@ -2752,6 +3102,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -300,
 		SDTAbbreviation: "CST",
 		DSTAbbreviation: "CDT",
+		SDTName:         "Central Standard Time",
+		DSTName:         "Central Daylight Time",
 		Link:            "",
 	},
 	"America/North_Dakota/New_Salem": {
@@ -2762,6 +3114,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -300,
 		SDTAbbreviation: "CST",
 		DSTAbbreviation: "CDT",
+		SDTName:         "Central Standard Time",
+		DSTName:         "Central Daylight Time",
 		Link:            "",
 	},
 	"America/Nuuk": {
@@ -2772,6 +3126,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -60,
 		SDTAbbreviation: "-02",
 		DSTAbbreviation: "-01",
+		SDTName:         "",
+		DSTName:         "",
 		Link:            "",
 	},
 	"America/Ojinaga": {
@@ -2782,6 +3138,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -300,
 		SDTAbbreviation: "CST",
 		DSTAbbreviation: "CDT",
+		SDTName:         "Central Standard Time",
+		DSTName:         "Central Daylight Time",
 		Link:            "",
 	},
 	"America/Panama": {
@@ -2792,6 +3150,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -300,
 		SDTAbbreviation: "EST",
 		DSTAbbreviation: "EST",
+		SDTName:         "Eastern Standard Time",
+		DSTName:         "Eastern Daylight Time",
 		Link:            "",
 	},
 	"America/Pangnirtung": {
@@ -2802,6 +3162,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -240,
 		SDTAbbreviation: "EST",
 		DSTAbbreviation: "EDT",
+		SDTName:         "",
+		DSTName:         "",
 		Link:            "America/Iqaluit",
 	},
 	"America/Paramaribo": {
@@ -2812,6 +3174,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -180,
 		SDTAbbreviation: "-03",
 		DSTAbbreviation: "-03",
+		SDTName:         "Suriname Time",
+		DSTName:         "",
 		Link:            "",
 	},
 	"America/Phoenix": {
@@ -2822,6 +3186,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -420,
 		SDTAbbreviation: "MST",
 		DSTAbbreviation: "MST",
+		SDTName:         "Mountain Standard Time",
+		DSTName:         "Mountain Daylight Time",
 		Link:            "",
 	},
 	"America/Port-au-Prince": {
@@ -2832,6 +3198,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -240,
 		SDTAbbreviation: "EST",
 		DSTAbbreviation: "EDT",
+		SDTName:         "Eastern Standard Time",
+		DSTName:         "Eastern Daylight Time",
 		Link:            "",
 	},
 	"America/Port_of_Spain": {
@@ -2842,6 +3210,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -240,
 		SDTAbbreviation: "AST",
 		DSTAbbreviation: "AST",
+		SDTName:         "Atlantic Standard Time",
+		DSTName:         "Atlantic Daylight Time",
 		Link:            "America/Puerto_Rico",
 	},
 	"America/Porto_Acre": {
@@ -2852,6 +3222,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -300,
 		SDTAbbreviation: "-05",
 		DSTAbbreviation: "-05",
+		SDTName:         "",
+		DSTName:         "",
 		Link:            "America/Rio_Branco",
 	},
 	"America/Porto_Velho": {
@@ -2862,6 +3234,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -240,
 		SDTAbbreviation: "-04",
 		DSTAbbreviation: "-04",
+		SDTName:         "Amazon Standard Time",
+		DSTName:         "Amazon Summer Time",
 		Link:            "",
 	},
 	"America/Puerto_Rico": {
@@ -2872,6 +3246,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -240,
 		SDTAbbreviation: "AST",
 		DSTAbbreviation: "AST",
+		SDTName:         "Atlantic Standard Time",
+		DSTName:         "Atlantic Daylight Time",
 		Link:            "",
 	},
 	"America/Punta_Arenas": {
@@ -2882,6 +3258,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -180,
 		SDTAbbreviation: "-03",
 		DSTAbbreviation: "-03",
+		SDTName:         "",
+		DSTName:         "",
 		Link:            "",
 	},
 	"America/Rainy_River": {
@@ -2892,6 +3270,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -300,
 		SDTAbbreviation: "CST",
 		DSTAbbreviation: "CDT",
+		SDTName:         "",
+		DSTName:         "",
 		Link:            "America/Winnipeg",
 	},
 	"America/Rankin_Inlet": {
@@ -2902,6 +3282,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -300,
 		SDTAbbreviation: "CST",
 		DSTAbbreviation: "CDT",
+		SDTName:         "Central Standard Time",
+		DSTName:         "Central Daylight Time",
 		Link:            "",
 	},
 	"America/Recife": {
@@ -2912,6 +3294,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -180,
 		SDTAbbreviation: "-03",
 		DSTAbbreviation: "-03",
+		SDTName:         "Brasilia Standard Time",
+		DSTName:         "Brasilia Summer Time",
 		Link:            "",
 	},
 	"America/Regina": {
@@ -2922,6 +3306,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -360,
 		SDTAbbreviation: "CST",
 		DSTAbbreviation: "CST",
+		SDTName:         "Central Standard Time",
+		DSTName:         "Central Daylight Time",
 		Link:            "",
 	},
 	"America/Resolute": {
@@ -2932,6 +3318,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -300,
 		SDTAbbreviation: "CST",
 		DSTAbbreviation: "CDT",
+		SDTName:         "Central Standard Time",
+		DSTName:         "Central Daylight Time",
 		Link:            "",
 	},
 	"America/Rio_Branco": {
@@ -2942,6 +3330,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -300,
 		SDTAbbreviation: "-05",
 		DSTAbbreviation: "-05",
+		SDTName:         "Acre Standard Time",
+		DSTName:         "Acre Summer Time",
 		Link:            "",
 	},
 	"America/Rosario": {
@@ -2952,6 +3342,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -180,
 		SDTAbbreviation: "-03",
 		DSTAbbreviation: "-03",
+		SDTName:         "",
+		DSTName:         "",
 		Link:            "America/Argentina/Cordoba",
 	},
 	"America/Santa_Isabel": {
@@ -2962,6 +3354,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -420,
 		SDTAbbreviation: "PST",
 		DSTAbbreviation: "PDT",
+		SDTName:         "",
+		DSTName:         "",
 		Link:            "America/Tijuana",
 	},
 	"America/Santarem": {
@@ -2972,6 +3366,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -180,
 		SDTAbbreviation: "-03",
 		DSTAbbreviation: "-03",
+		SDTName:         "Brasilia Standard Time",
+		DSTName:         "Brasilia Summer Time",
 		Link:            "",
 	},
 	"America/Santiago": {
@@ -2982,6 +3378,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -180,
 		SDTAbbreviation: "-04",
 		DSTAbbreviation: "-03",
+		SDTName:         "Chile Standard Time",
+		DSTName:         "Chile Summer Time",
 		Link:            "",
 	},
 	"America/Santo_Domingo": {
@@ -2992,6 +3390,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -240,
 		SDTAbbreviation: "AST",
 		DSTAbbreviation: "AST",
+		SDTName:         "Atlantic Standard Time",
+		DSTName:         "Atlantic Daylight Time",
 		Link:            "",
 	},
 	"America/Sao_Paulo": {
@@ -3002,6 +3402,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -180,
 		SDTAbbreviation: "-03",
 		DSTAbbreviation: "-03",
+		SDTName:         "Brasilia Standard Time",
+		DSTName:         "Brasilia Summer Time",
 		Link:            "",
 	},
 	"America/Scoresbysund": {
@@ -3012,6 +3414,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -60,
 		SDTAbbreviation: "-02",
 		DSTAbbreviation: "-01",
+		SDTName:         "Greenland Standard Time",
+		DSTName:         "Greenland Summer Time",
 		Link:            "",
 	},
 	"America/Shiprock": {
@@ -3022,6 +3426,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -360,
 		SDTAbbreviation: "MST",
 		DSTAbbreviation: "MDT",
+		SDTName:         "",
+		DSTName:         "",
 		Link:            "America/Denver",
 	},
 	"America/Sitka": {
@@ -3032,6 +3438,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -480,
 		SDTAbbreviation: "AKST",
 		DSTAbbreviation: "AKDT",
+		SDTName:         "Alaska Standard Time",
+		DSTName:         "Alaska Daylight Time",
 		Link:            "",
 	},
 	"America/St_Barthelemy": {
@@ -3042,6 +3450,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -240,
 		SDTAbbreviation: "AST",
 		DSTAbbreviation: "AST",
+		SDTName:         "Atlantic Standard Time",
+		DSTName:         "Atlantic Daylight Time",
 		Link:            "America/Puerto_Rico",
 	},
 	"America/St_Johns": {
@@ -3052,6 +3462,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -150,
 		SDTAbbreviation: "NST",
 		DSTAbbreviation: "NDT",
+		SDTName:         "Newfoundland Standard Time",
+		DSTName:         "Newfoundland Daylight Time",
 		Link:            "",
 	},
 	"America/St_Kitts": {
@@ -3062,6 +3474,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -240,
 		SDTAbbreviation: "AST",
 		DSTAbbreviation: "AST",
+		SDTName:         "Atlantic Standard Time",
+		DSTName:         "Atlantic Daylight Time",
 		Link:            "America/Puerto_Rico",
 	},
 	"America/St_Lucia": {
@@ -3072,6 +3486,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -240,
 		SDTAbbreviation: "AST",
 		DSTAbbreviation: "AST",
+		SDTName:         "Atlantic Standard Time",
+		DSTName:         "Atlantic Daylight Time",
 		Link:            "America/Puerto_Rico",
 	},
 	"America/St_Thomas": {
@@ -3082,6 +3498,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -240,
 		SDTAbbreviation: "AST",
 		DSTAbbreviation: "AST",
+		SDTName:         "Atlantic Standard Time",
+		DSTName:         "Atlantic Daylight Time",
 		Link:            "America/Puerto_Rico",
 	},
 	"America/St_Vincent": {
@@ -3092,6 +3510,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -240,
 		SDTAbbreviation: "AST",
 		DSTAbbreviation: "AST",
+		SDTName:         "Atlantic Standard Time",
+		DSTName:         "Atlantic Daylight Time",
 		Link:            "America/Puerto_Rico",
 	},
 	"America/Swift_Current": {
@@ -3102,6 +3522,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -360,
 		SDTAbbreviation: "CST",
 		DSTAbbreviation: "CST",
+		SDTName:         "Central Standard Time",
+		DSTName:         "Central Daylight Time",
 		Link:            "",
 	},
 	"America/Tegucigalpa": {
@@ -3112,6 +3534,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -360,
 		SDTAbbreviation: "CST",
 		DSTAbbreviation: "CST",
+		SDTName:         "Central Standard Time",
+		DSTName:         "Central Daylight Time",
 		Link:            "",
 	},
 	"America/Thule": {
@@ -3122,6 +3546,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -180,
 		SDTAbbreviation: "AST",
 		DSTAbbreviation: "ADT",
+		SDTName:         "Atlantic Standard Time",
+		DSTName:         "Atlantic Daylight Time",
 		Link:            "",
 	},
 	"America/Thunder_Bay": {
@@ -3132,6 +3558,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -240,
 		SDTAbbreviation: "EST",
 		DSTAbbreviation: "EDT",
+		SDTName:         "",
+		DSTName:         "",
 		Link:            "America/Toronto",
 	},
 	"America/Tijuana": {
@@ -3142,6 +3570,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -420,
 		SDTAbbreviation: "PST",
 		DSTAbbreviation: "PDT",
+		SDTName:         "Pacific Standard Time",
+		DSTName:         "Pacific Daylight Time",
 		Link:            "",
 	},
 	"America/Toronto": {
@@ -3152,6 +3582,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -240,
 		SDTAbbreviation: "EST",
 		DSTAbbreviation: "EDT",
+		SDTName:         "Eastern Standard Time",
+		DSTName:         "Eastern Daylight Time",
 		Link:            "",
 	},
 	"America/Tortola": {
@@ -3162,6 +3594,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -240,
 		SDTAbbreviation: "AST",
 		DSTAbbreviation: "AST",
+		SDTName:         "Atlantic Standard Time",
+		DSTName:         "Atlantic Daylight Time",
 		Link:            "America/Puerto_Rico",
 	},
 	"America/Vancouver": {
@@ -3172,6 +3606,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -420,
 		SDTAbbreviation: "PST",
 		DSTAbbreviation: "PDT",
+		SDTName:         "Pacific Standard Time",
+		DSTName:         "Pacific Daylight Time",
 		Link:            "",
 	},
 	"America/Virgin": {
@@ -3182,6 +3618,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -240,
 		SDTAbbreviation: "AST",
 		DSTAbbreviation: "AST",
+		SDTName:         "",
+		DSTName:         "",
 		Link:            "America/Puerto_Rico",
 	},
 	"America/Whitehorse": {
@@ -3192,6 +3630,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -420,
 		SDTAbbreviation: "MST",
 		DSTAbbreviation: "MST",
+		SDTName:         "Yukon Time",
+		DSTName:         "",
 		Link:            "",
 	},
 	"America/Winnipeg": {
@@ -3202,6 +3642,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -300,
 		SDTAbbreviation: "CST",
 		DSTAbbreviation: "CDT",
+		SDTName:         "Central Standard Time",
+		DSTName:         "Central Daylight Time",
 		Link:            "",
 	},
 	"America/Yakutat": {
@@ -3212,6 +3654,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -480,
 		SDTAbbreviation: "AKST",
 		DSTAbbreviation: "AKDT",
+		SDTName:         "Alaska Standard Time",
+		DSTName:         "Alaska Daylight Time",
 		Link:            "",
 	},
 	"America/Yellowknife": {
@@ -3222,6 +3666,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -360,
 		SDTAbbreviation: "MST",
 		DSTAbbreviation: "MDT",
+		SDTName:         "",
+		DSTName:         "",
 		Link:            "America/Edmonton",
 	},
 	"Antarctica/Casey": {
@@ -3232,6 +3678,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       480,
 		SDTAbbreviation: "+08",
 		DSTAbbreviation: "+08",
+		SDTName:         "Australian Western Standard Time",
+		DSTName:         "Australian Western Daylight Time",
 		Link:            "",
 	},
 	"Antarctica/Davis": {
@@ -3242,6 +3690,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       420,
 		SDTAbbreviation: "+07",
 		DSTAbbreviation: "+07",
+		SDTName:         "Davis Time",
+		DSTName:         "",
 		Link:            "",
 	},
 	"Antarctica/DumontDUrville": {
@@ -3252,6 +3702,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       600,
 		SDTAbbreviation: "+10",
 		DSTAbbreviation: "+10",
+		SDTName:         "Dumont d’Urville Time",
+		DSTName:         "",
 		Link:            "Pacific/Port_Moresby",
 	},
 	"Antarctica/Macquarie": {
@@ -3262,6 +3714,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       660,
 		SDTAbbreviation: "AEST",
 		DSTAbbreviation: "AEDT",
+		SDTName:         "Australian Eastern Standard Time",
+		DSTName:         "Australian Eastern Daylight Time",
 		Link:            "",
 	},
 	"Antarctica/Mawson": {
@@ -3272,6 +3726,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       300,
 		SDTAbbreviation: "+05",
 		DSTAbbreviation: "+05",
+		SDTName:         "Mawson Time",
+		DSTName:         "",
 		Link:            "",
 	},
 	"Antarctica/McMurdo": {
@@ -3282,6 +3738,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       780,
 		SDTAbbreviation: "NZST",
 		DSTAbbreviation: "NZDT",
+		SDTName:         "New Zealand Standard Time",
+		DSTName:         "New Zealand Daylight Time",
 		Link:            "Pacific/Auckland",
 	},
 	"Antarctica/Palmer": {
@@ -3292,6 +3750,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -180,
 		SDTAbbreviation: "-03",
 		DSTAbbreviation: "-03",
+		SDTName:         "",
+		DSTName:         "",
 		Link:            "",
 	},
 	"Antarctica/Rothera": {
@@ -3302,6 +3762,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -180,
 		SDTAbbreviation: "-03",
 		DSTAbbreviation: "-03",
+		SDTName:         "Rothera Time",
+		DSTName:         "",
 		Link:            "",
 	},
 	"Antarctica/South_Pole": {
@@ -3312,6 +3774,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       780,
 		SDTAbbreviation: "NZST",
 		DSTAbbreviation: "NZDT",
+		SDTName:         "",
+		DSTName:         "",
 		Link:            "Pacific/Auckland",
 	},
 	"Antarctica/Syowa": {
@@ -3322,6 +3786,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       180,
 		SDTAbbreviation: "+03",
 		DSTAbbreviation: "+03",
+		SDTName:         "Syowa Time",
+		DSTName:         "",
 		Link:            "Asia/Riyadh",
 	},
 	"Antarctica/Troll": {
@@ -3332,6 +3798,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       120,
 		SDTAbbreviation: "+00",
 		DSTAbbreviation: "+02",
+		SDTName:         "Greenwich Mean Time",
+		DSTName:         "",
 		Link:            "",
 	},
 	"Antarctica/Vostok": {
@@ -3342,6 +3810,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       300,
 		SDTAbbreviation: "+05",
 		DSTAbbreviation: "+05",
+		SDTName:         "Vostok Time",
+		DSTName:         "",
 		Link:            "",
 	},
 	"Arctic/Longyearbyen": {
@@ -3352,6 +3822,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       120,
 		SDTAbbreviation: "CET",
 		DSTAbbreviation: "CEST",
+		SDTName:         "Central European Standard Time",
+		DSTName:         "Central European Summer Time",
 		Link:            "Europe/Berlin",
 	},
 	"Asia/Aden": {
@@ -3362,6 +3834,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       180,
 		SDTAbbreviation: "+03",
 		DSTAbbreviation: "+03",
+		SDTName:         "Arabian Standard Time",
+		DSTName:         "Arabian Daylight Time",
 		Link:            "Asia/Riyadh",
 	},
 	"Asia/Almaty": {
@@ -3372,6 +3846,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       300,
 		SDTAbbreviation: "+05",
 		DSTAbbreviation: "+05",
+		SDTName:         "Kazakhstan Time",
+		DSTName:         "",
 		Link:            "",
 	},
 	"Asia/Amman": {
@@ -3382,6 +3858,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       180,
 		SDTAbbreviation: "+03",
 		DSTAbbreviation: "+03",
+		SDTName:         "",
+		DSTName:         "",
 		Link:            "",
 	},
 	"Asia/Anadyr": {
@@ -3392,6 +3870,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       720,
 		SDTAbbreviation: "+12",
 		DSTAbbreviation: "+12",
+		SDTName:         "Kamchatka Standard Time",
+		DSTName:         "Kamchatka Summer Time",
 		Link:            "",
 	},
 	"Asia/Aqtau": {
@@ -3402,6 +3882,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       300,
 		SDTAbbreviation: "+05",
 		DSTAbbreviation: "+05",
+		SDTName:         "Kazakhstan Time",
+		DSTName:         "",
 		Link:            "",
 	},
 	"Asia/Aqtobe": {
@@ -3412,6 +3894,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       300,
 		SDTAbbreviation: "+05",
 		DSTAbbreviation: "+05",
+		SDTName:         "Kazakhstan Time",
+		DSTName:         "",
 		Link:            "",
 	},
 	"Asia/Ashgabat": {
@@ -3422,6 +3906,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       300,
 		SDTAbbreviation: "+05",
 		DSTAbbreviation: "+05",
+		SDTName:         "Turkmenistan Standard Time",
+		DSTName:         "Turkmenistan Summer Time",
 		Link:            "",
 	},
 	"Asia/Ashkhabad": {
@@ -3432,6 +3918,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       300,
 		SDTAbbreviation: "+05",
 		DSTAbbreviation: "+05",
+		SDTName:         "",
+		DSTName:         "",
 		Link:            "Asia/Ashgabat",
 	},
 	"Asia/Atyrau": {
@@ -3442,6 +3930,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       300,
 		SDTAbbreviation: "+05",
 		DSTAbbreviation: "+05",
+		SDTName:         "Kazakhstan Time",
+		DSTName:         "",
 		Link:            "",
 	},
 	"Asia/Baghdad": {
@@ -3452,6 +3942,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       180,
 		SDTAbbreviation: "+03",
 		DSTAbbreviation: "+03",
+		SDTName:         "Arabian Standard Time",
+		DSTName:         "Arabian Daylight Time",
 		Link:            "",
 	},
 	"Asia/Bahrain": {
@@ -3462,6 +3954,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       180,
 		SDTAbbreviation: "+03",
 		DSTAbbreviation: "+03",
+		SDTName:         "Arabian Standard Time",
+		DSTName:         "Arabian Daylight Time",
 		Link:            "Asia/Qatar",
 	},
 	"Asia/Baku": {
@@ -3472,6 +3966,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       240,
 		SDTAbbreviation: "+04",
 		DSTAbbreviation: "+04",
+		SDTName:         "Azerbaijan Standard Time",
+		DSTName:         "Azerbaijan Summer Time",
 		Link:            "",
 	},
 	"Asia/Bangkok": {
@@ -3482,6 +3978,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       420,
 		SDTAbbreviation: "+07",
 		DSTAbbreviation: "+07",
+		SDTName:         "Indochina Time",
+		DSTName:         "",
 		Link:            "",
 	},
 	"Asia/Barnaul": {
@@ -3492,6 +3990,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       420,
 		SDTAbbreviation: "+07",
 		DSTAbbreviation: "+07",
+		SDTName:         "Krasnoyarsk Standard Time",
+		DSTName:         "Krasnoyarsk Summer Time",
 		Link:            "",
 	},
 	"Asia/Beirut": {
@@ -3502,6 +4002,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       180,
 		SDTAbbreviation: "EET",
 		DSTAbbreviation: "EEST",
+		SDTName:         "Eastern European Standard Time",
+		DSTName:         "Eastern European Summer Time",
 		Link:            "",
 	},
 	"Asia/Bishkek": {
@@ -3512,6 +4014,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       360,
 		SDTAbbreviation: "+06",
 		DSTAbbreviation: "+06",
+		SDTName:         "Kyrgyzstan Time",
+		DSTName:         "",
 		Link:            "",
 	},
 	"Asia/Brunei": {
@@ -3522,6 +4026,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       480,
 		SDTAbbreviation: "+08",
 		DSTAbbreviation: "+08",
+		SDTName:         "Brunei Time",
+		DSTName:         "",
 		Link:            "Asia/Kuching",
 	},
 	"Asia/Calcutta": {
@@ -3532,6 +4038,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       330,
 		SDTAbbreviation: "IST",
 		DSTAbbreviation: "IST",
+		SDTName:         "India Standard Time",
+		DSTName:         "",
 		Link:            "Asia/Kolkata",
 	},
 	"Asia/Chita": {
@@ -3542,6 +4050,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       540,
 		SDTAbbreviation: "+09",
 		DSTAbbreviation: "+09",
+		SDTName:         "Yakutsk Standard Time",
+		DSTName:         "Yakutsk Summer Time",
 		Link:            "",
 	},
 	"Asia/Choibalsan": {
@@ -3552,6 +4062,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       480,
 		SDTAbbreviation: "+08",
 		DSTAbbreviation: "+08",
+		SDTName:         "",
+		DSTName:         "",
 		Link:            "Asia/Ulaanbaatar",
 	},
 	"Asia/Chongqing": {
@@ -3562,6 +4074,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       480,
 		SDTAbbreviation: "CST",
 		DSTAbbreviation: "CST",
+		SDTName:         "",
+		DSTName:         "",
 		Link:            "Asia/Shanghai",
 	},
 	"Asia/Chungking": {
@@ -3572,6 +4086,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       480,
 		SDTAbbreviation: "CST",
 		DSTAbbreviation: "CST",
+		SDTName:         "",
+		DSTName:         "",
 		Link:            "Asia/Shanghai",
 	},
 	"Asia/Colombo": {
@@ -3582,6 +4098,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       330,
 		SDTAbbreviation: "+0530",
 		DSTAbbreviation: "+0530",
+		SDTName:         "India Standard Time",
+		DSTName:         "",
 		Link:            "",
 	},
 	"Asia/Dacca": {
@@ -3592,6 +4110,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       360,
 		SDTAbbreviation: "+06",
 		DSTAbbreviation: "+06",
+		SDTName:         "",
+		DSTName:         "",
 		Link:            "Asia/Dhaka",
 	},
 	"Asia/Damascus": {
@@ -3602,6 +4122,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       180,
 		SDTAbbreviation: "+03",
 		DSTAbbreviation: "+03",
+		SDTName:         "",
+		DSTName:         "",
 		Link:            "",
 	},
 	"Asia/Dhaka": {
@@ -3612,6 +4134,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       360,
 		SDTAbbreviation: "+06",
 		DSTAbbreviation: "+06",
+		SDTName:         "Bangladesh Standard Time",
+		DSTName:         "Bangladesh Summer Time",
 		Link:            "",
 	},
 	"Asia/Dili": {
@@ -3622,6 +4146,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       540,
 		SDTAbbreviation: "+09",
 		DSTAbbreviation: "+09",
+		SDTName:         "Timor-Leste Time",
+		DSTName:         "",
 		Link:            "",
 	},
 	"Asia/Dubai": {
@@ -3632,6 +4158,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       240,
 		SDTAbbreviation: "+04",
 		DSTAbbreviation: "+04",
+		SDTName:         "Gulf Standard Time",
+		DSTName:         "",
 		Link:            "",
 	},
 	"Asia/Dushanbe": {
@@ -3642,6 +4170,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       300,
 		SDTAbbreviation: "+05",
 		DSTAbbreviation: "+05",
+		SDTName:         "Tajikistan Time",
+		DSTName:         "",
 		Link:            "",
 	},
 	"Asia/Famagusta": {
@@ -3652,6 +4182,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       180,
 		SDTAbbreviation: "EET",
 		DSTAbbreviation: "EEST",
+		SDTName:         "Eastern European Standard Time",
+		DSTName:         "Eastern European Summer Time",
 		Link:            "",
 	},
 	"Asia/Gaza": {
@@ -3662,6 +4194,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       180,
 		SDTAbbreviation: "EET",
 		DSTAbbreviation: "EEST",
+		SDTName:         "Eastern European Standard Time",
+		DSTName:         "Eastern European Summer Time",
 		Link:            "",
 	},
 	"Asia/Harbin": {
@@ -3672,6 +4206,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       480,
 		SDTAbbreviation: "CST",
 		DSTAbbreviation: "CST",
+		SDTName:         "",
+		DSTName:         "",
 		Link:            "Asia/Shanghai",
 	},
 	"Asia/Hebron": {
@@ -3682,6 +4218,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       180,
 		SDTAbbreviation: "EET",
 		DSTAbbreviation: "EEST",
+		SDTName:         "Eastern European Standard Time",
+		DSTName:         "Eastern European Summer Time",
 		Link:            "",
 	},
 	"Asia/Ho_Chi_Minh": {
@@ -3692,6 +4230,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       420,
 		SDTAbbreviation: "+07",
 		DSTAbbreviation: "+07",
+		SDTName:         "",
+		DSTName:         "",
 		Link:            "",
 	},
 	"Asia/Hong_Kong": {
@@ -3702,6 +4242,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       480,
 		SDTAbbreviation: "HKT",
 		DSTAbbreviation: "HKT",
+		SDTName:         "Hong Kong Standard Time",
+		DSTName:         "Hong Kong Summer Time",
 		Link:            "",
 	},
 	"Asia/Hovd": {
@@ -3712,6 +4254,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       420,
 		SDTAbbreviation: "+07",
 		DSTAbbreviation: "+07",
+		SDTName:         "Khovd Standard Time",
+		DSTName:         "Khovd Summer Time",
 		Link:            "",
 	},
 	"Asia/Irkutsk": {
@@ -3722,6 +4266,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       480,
 		SDTAbbreviation: "+08",
 		DSTAbbreviation: "+08",
+		SDTName:         "Irkutsk Standard Time",
+		DSTName:         "Irkutsk Summer Time",
 		Link:            "",
 	},
 	"Asia/Istanbul": {
@@ -3732,6 +4278,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       180,
 		SDTAbbreviation: "+03",
 		DSTAbbreviation: "+03",
+		SDTName:         "",
+		DSTName:         "",
 		Link:            "Europe/Istanbul",
 	},
 	"Asia/Jakarta": {
@@ -3742,6 +4290,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       420,
 		SDTAbbreviation: "WIB",
 		DSTAbbreviation: "WIB",
+		SDTName:         "Western Indonesia Time",
+		DSTName:         "",
 		Link:            "",
 	},
 	"Asia/Jayapura": {
@@ -3752,6 +4302,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       540,
 		SDTAbbreviation: "WIT",
 		DSTAbbreviation: "WIT",
+		SDTName:         "Eastern Indonesia Time",
+		DSTName:         "",
 		Link:            "",
 	},
 	"Asia/Jerusalem": {
@@ -3762,6 +4314,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       180,
 		SDTAbbreviation: "IST",
 		DSTAbbreviation: "IDT",
+		SDTName:         "Israel Standard Time",
+		DSTName:         "Israel Daylight Time",
 		Link:            "",
 	},
 	"Asia/Kabul": {
@@ -3772,6 +4326,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       270,
 		SDTAbbreviation: "+0430",
 		DSTAbbreviation: "+0430",
+		SDTName:         "Afghanistan Time",
+		DSTName:         "",
 		Link:            "",
 	},
 	"Asia/Kamchatka": {
@@ -3782,6 +4338,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       720,
 		SDTAbbreviation: "+12",
 		DSTAbbreviation: "+12",
+		SDTName:         "Kamchatka Standard Time",
+		DSTName:         "Kamchatka Summer Time",
 		Link:            "",
 	},
 	"Asia/Karachi": {
@@ -3792,6 +4350,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       300,
 		SDTAbbreviation: "PKT",
 		DSTAbbreviation: "PKT",
+		SDTName:         "Pakistan Standard Time",
+		DSTName:         "Pakistan Summer Time",
 		Link:            "",
 	},
 	"Asia/Kashgar": {
@@ -3802,6 +4362,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       360,
 		SDTAbbreviation: "+06",
 		DSTAbbreviation: "+06",
+		SDTName:         "",
+		DSTName:         "",
 		Link:            "Asia/Urumqi[note 1]",
 	},
 	"Asia/Kathmandu": {
@@ -3812,6 +4374,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       345,
 		SDTAbbreviation: "+0545",
 		DSTAbbreviation: "+0545",
+		SDTName:         "",
+		DSTName:         "",
 		Link:            "",
 	},
 	"Asia/Katmandu": {
@@ -3822,6 +4386,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       345,
 		SDTAbbreviation: "+0545",
 		DSTAbbreviation: "+0545",
+		SDTName:         "Nepal Time",
+		DSTName:         "",
 		Link:            "Asia/Kathmandu",
 	},
 	"Asia/Khandyga": {
@@ -3832,6 +4398,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       540,
 		SDTAbbreviation: "+09",
 		DSTAbbreviation: "+09",
+		SDTName:         "Yakutsk Standard Time",
+		DSTName:         "Yakutsk Summer Time",
 		Link:            "",
 	},
 	"Asia/Kolkata": {
@@ -3842,6 +4410,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       330,
 		SDTAbbreviation: "IST",
 		DSTAbbreviation: "IST",
+		SDTName:         "",
+		DSTName:         "",
 		Link:            "",
 	},
 	"Asia/Krasnoyarsk": {
@@ -3852,6 +4422,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       420,
 		SDTAbbreviation: "+07",
 		DSTAbbreviation: "+07",
+		SDTName:         "Krasnoyarsk Standard Time",
+		DSTName:         "Krasnoyarsk Summer Time",
 		Link:            "",
 	},
 	"Asia/Kuala_Lumpur": {
@@ -3862,6 +4434,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       480,
 		SDTAbbreviation: "+08",
 		DSTAbbreviation: "+08",
+		SDTName:         "Malaysia Time",
+		DSTName:         "",
 		Link:            "Asia/Singapore",
 	},
 	"Asia/Kuching": {
@@ -3872,6 +4446,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       480,
 		SDTAbbreviation: "+08",
 		DSTAbbreviation: "+08",
+		SDTName:         "Malaysia Time",
+		DSTName:         "",
 		Link:            "",
 	},
 	"Asia/Kuwait": {
@@ -3882,6 +4458,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       180,
 		SDTAbbreviation: "+03",
 		DSTAbbreviation: "+03",
+		SDTName:         "Arabian Standard Time",
+		DSTName:         "Arabian Daylight Time",
 		Link:            "Asia/Riyadh",
 	},
 	"Asia/Macao": {
@@ -3892,6 +4470,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       480,
 		SDTAbbreviation: "CST",
 		DSTAbbreviation: "CST",
+		SDTName:         "",
+		DSTName:         "",
 		Link:            "Asia/Macau",
 	},
 	"Asia/Macau": {
@@ -3902,6 +4482,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       480,
 		SDTAbbreviation: "CST",
 		DSTAbbreviation: "CST",
+		SDTName:         "China Standard Time",
+		DSTName:         "China Daylight Time",
 		Link:            "",
 	},
 	"Asia/Magadan": {
@@ -3912,6 +4494,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       660,
 		SDTAbbreviation: "+11",
 		DSTAbbreviation: "+11",
+		SDTName:         "Magadan Standard Time",
+		DSTName:         "Magadan Summer Time",
 		Link:            "",
 	},
 	"Asia/Makassar": {
@@ -3922,6 +4506,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       480,
 		SDTAbbreviation: "WITA",
 		DSTAbbreviation: "WITA",
+		SDTName:         "Central Indonesia Time",
+		DSTName:         "",
 		Link:            "",
 	},
 	"Asia/Manila": {
@@ -3932,6 +4518,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       480,
 		SDTAbbreviation: "PST",
 		DSTAbbreviation: "PST",
+		SDTName:         "Philippine Standard Time",
+		DSTName:         "Philippine Summer Time",
 		Link:            "",
 	},
 	"Asia/Muscat": {
@@ -3942,6 +4530,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       240,
 		SDTAbbreviation: "+04",
 		DSTAbbreviation: "+04",
+		SDTName:         "Gulf Standard Time",
+		DSTName:         "",
 		Link:            "Asia/Dubai",
 	},
 	"Asia/Nicosia": {
@@ -3952,6 +4542,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       180,
 		SDTAbbreviation: "EET",
 		DSTAbbreviation: "EEST",
+		SDTName:         "Eastern European Standard Time",
+		DSTName:         "Eastern European Summer Time",
 		Link:            "",
 	},
 	"Asia/Novokuznetsk": {
@@ -3962,6 +4554,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       420,
 		SDTAbbreviation: "+07",
 		DSTAbbreviation: "+07",
+		SDTName:         "Krasnoyarsk Standard Time",
+		DSTName:         "Krasnoyarsk Summer Time",
 		Link:            "",
 	},
 	"Asia/Novosibirsk": {
@@ -3972,6 +4566,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       420,
 		SDTAbbreviation: "+07",
 		DSTAbbreviation: "+07",
+		SDTName:         "Krasnoyarsk Standard Time",
+		DSTName:         "Krasnoyarsk Summer Time",
 		Link:            "",
 	},
 	"Asia/Omsk": {
@@ -3982,6 +4578,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       360,
 		SDTAbbreviation: "+06",
 		DSTAbbreviation: "+06",
+		SDTName:         "Omsk Standard Time",
+		DSTName:         "Omsk Summer Time",
 		Link:            "",
 	},
 	"Asia/Oral": {
@@ -3992,6 +4590,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       300,
 		SDTAbbreviation: "+05",
 		DSTAbbreviation: "+05",
+		SDTName:         "Kazakhstan Time",
+		DSTName:         "",
 		Link:            "",
 	},
 	"Asia/Phnom_Penh": {
@@ -4002,6 +4602,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       420,
 		SDTAbbreviation: "+07",
 		DSTAbbreviation: "+07",
+		SDTName:         "Indochina Time",
+		DSTName:         "",
 		Link:            "Asia/Bangkok",
 	},
 	"Asia/Pontianak": {
@@ -4012,6 +4614,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       420,
 		SDTAbbreviation: "WIB",
 		DSTAbbreviation: "WIB",
+		SDTName:         "Western Indonesia Time",
+		DSTName:         "",
 		Link:            "",
 	},
 	"Asia/Pyongyang": {
@@ -4022,6 +4626,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       540,
 		SDTAbbreviation: "KST",
 		DSTAbbreviation: "KST",
+		SDTName:         "Korean Standard Time",
+		DSTName:         "Korean Daylight Time",
 		Link:            "",
 	},
 	"Asia/Qatar": {
@@ -4032,6 +4638,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       180,
 		SDTAbbreviation: "+03",
 		DSTAbbreviation: "+03",
+		SDTName:         "Arabian Standard Time",
+		DSTName:         "Arabian Daylight Time",
 		Link:            "",
 	},
 	"Asia/Qostanay": {
@@ -4042,6 +4650,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       300,
 		SDTAbbreviation: "+05",
 		DSTAbbreviation: "+05",
+		SDTName:         "Kazakhstan Time",
+		DSTName:         "",
 		Link:            "",
 	},
 	"Asia/Qyzylorda": {
@@ -4052,6 +4662,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       300,
 		SDTAbbreviation: "+05",
 		DSTAbbreviation: "+05",
+		SDTName:         "Kazakhstan Time",
+		DSTName:         "",
 		Link:            "",
 	},
 	"Asia/Rangoon": {
@@ -4062,6 +4674,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       390,
 		SDTAbbreviation: "+0630",
 		DSTAbbreviation: "+0630",
+		SDTName:         "Myanmar Time",
+		DSTName:         "",
 		Link:            "Asia/Yangon",
 	},
 	"Asia/Riyadh": {
@@ -4072,6 +4686,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       180,
 		SDTAbbreviation: "+03",
 		DSTAbbreviation: "+03",
+		SDTName:         "Arabian Standard Time",
+		DSTName:         "Arabian Daylight Time",
 		Link:            "",
 	},
 	"Asia/Saigon": {
@@ -4082,6 +4698,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       420,
 		SDTAbbreviation: "+07",
 		DSTAbbreviation: "+07",
+		SDTName:         "Indochina Time",
+		DSTName:         "",
 		Link:            "Asia/Ho_Chi_Minh",
 	},
 	"Asia/Sakhalin": {
@@ -4092,6 +4710,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       660,
 		SDTAbbreviation: "+11",
 		DSTAbbreviation: "+11",
+		SDTName:         "Magadan Standard Time",
+		DSTName:         "Magadan Summer Time",
 		Link:            "",
 	},
 	"Asia/Samarkand": {
@@ -4102,6 +4722,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       300,
 		SDTAbbreviation: "+05",
 		DSTAbbreviation: "+05",
+		SDTName:         "Uzbekistan Standard Time",
+		DSTName:         "Uzbekistan Summer Time",
 		Link:            "",
 	},
 	"Asia/Seoul": {
@@ -4112,6 +4734,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       540,
 		SDTAbbreviation: "KST",
 		DSTAbbreviation: "KST",
+		SDTName:         "Korean Standard Time",
+		DSTName:         "Korean Daylight Time",
 		Link:            "",
 	},
 	"Asia/Shanghai": {
@@ -4122,6 +4746,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       480,
 		SDTAbbreviation: "CST",
 		DSTAbbreviation: "CST",
+		SDTName:         "China Standard Time",
+		DSTName:         "China Daylight Time",
 		Link:            "",
 	},
 	"Asia/Singapore": {
@@ -4132,6 +4758,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       480,
 		SDTAbbreviation: "+08",
 		DSTAbbreviation: "+08",
+		SDTName:         "Singapore Standard Time",
+		DSTName:         "",
 		Link:            "",
 	},
 	"Asia/Srednekolymsk": {
@@ -4142,6 +4770,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       660,
 		SDTAbbreviation: "+11",
 		DSTAbbreviation: "+11",
+		SDTName:         "Magadan Standard Time",
+		DSTName:         "Magadan Summer Time",
 		Link:            "",
 	},
 	"Asia/Taipei": {
@@ -4152,6 +4782,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       480,
 		SDTAbbreviation: "CST",
 		DSTAbbreviation: "CST",
+		SDTName:         "Taiwan Standard Time",
+		DSTName:         "Taiwan Daylight Time",
 		Link:            "",
 	},
 	"Asia/Tashkent": {
@@ -4162,6 +4794,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       300,
 		SDTAbbreviation: "+05",
 		DSTAbbreviation: "+05",
+		SDTName:         "Uzbekistan Standard Time",
+		DSTName:         "Uzbekistan Summer Time",
 		Link:            "",
 	},
 	"Asia/Tbilisi": {
@@ -4172,6 +4806,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       240,
 		SDTAbbreviation: "+04",
 		DSTAbbreviation: "+04",
+		SDTName:         "Georgia Standard Time",
+		DSTName:         "Georgia Summer Time",
 		Link:            "",
 	},
 	"Asia/Tehran": {
@@ -4182,6 +4818,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       210,
 		SDTAbbreviation: "+0330",
 		DSTAbbreviation: "+0330",
+		SDTName:         "Iran Standard Time",
+		DSTName:         "Iran Daylight Time",
 		Link:            "",
 	},
 	"Asia/Tel_Aviv": {
@@ -4192,6 +4830,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       180,
 		SDTAbbreviation: "IST",
 		DSTAbbreviation: "IDT",
+		SDTName:         "",
+		DSTName:         "",
 		Link:            "Asia/Jerusalem",
 	},
 	"Asia/Thimbu": {
@@ -4202,6 +4842,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       360,
 		SDTAbbreviation: "+06",
 		DSTAbbreviation: "+06",
+		SDTName:         "",
+		DSTName:         "",
 		Link:            "Asia/Thimphu",
 	},
 	"Asia/Thimphu": {
@@ -4212,6 +4854,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       360,
 		SDTAbbreviation: "+06",
 		DSTAbbreviation: "+06",
+		SDTName:         "Bhutan Time",
+		DSTName:         "",
 		Link:            "",
 	},
 	"Asia/Tokyo": {
@@ -4222,6 +4866,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       540,
 		SDTAbbreviation: "JST",
 		DSTAbbreviation: "JST",
+		SDTName:         "Japan Standard Time",
+		DSTName:         "Japan Daylight Time",
 		Link:            "",
 	},
 	"Asia/Tomsk": {
@@ -4232,6 +4878,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       420,
 		SDTAbbreviation: "+07",
 		DSTAbbreviation: "+07",
+		SDTName:         "Krasnoyarsk Standard Time",
+		DSTName:         "Krasnoyarsk Summer Time",
 		Link:            "",
 	},
 	"Asia/Ujung_Pandang": {
@@ -4242,6 +4890,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       480,
 		SDTAbbreviation: "WITA",
 		DSTAbbreviation: "WITA",
+		SDTName:         "",
+		DSTName:         "",
 		Link:            "Asia/Makassar",
 	},
 	"Asia/Ulaanbaatar": {
@@ -4252,6 +4902,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       480,
 		SDTAbbreviation: "+08",
 		DSTAbbreviation: "+08",
+		SDTName:         "Ulaanbaatar Standard Time",
+		DSTName:         "Ulaanbaatar Summer Time",
 		Link:            "",
 	},
 	"Asia/Ulan_Bator": {
@@ -4262,6 +4914,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       480,
 		SDTAbbreviation: "+08",
 		DSTAbbreviation: "+08",
+		SDTName:         "",
+		DSTName:         "",
 		Link:            "Asia/Ulaanbaatar",
 	},
 	"Asia/Urumqi": {
@@ -4272,6 +4926,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       360,
 		SDTAbbreviation: "+06",
 		DSTAbbreviation: "+06",
+		SDTName:         "",
+		DSTName:         "",
 		Link:            "",
 	},
 	"Asia/Ust-Nera": {
@@ -4282,6 +4938,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       600,
 		SDTAbbreviation: "+10",
 		DSTAbbreviation: "+10",
+		SDTName:         "Vladivostok Standard Time",
+		DSTName:         "Vladivostok Summer Time",
 		Link:            "",
 	},
 	"Asia/Vientiane": {
@@ -4292,6 +4950,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       420,
 		SDTAbbreviation: "+07",
 		DSTAbbreviation: "+07",
+		SDTName:         "Indochina Time",
+		DSTName:         "",
 		Link:            "Asia/Bangkok",
 	},
 	"Asia/Vladivostok": {
@@ -4302,6 +4962,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       600,
 		SDTAbbreviation: "+10",
 		DSTAbbreviation: "+10",
+		SDTName:         "Vladivostok Standard Time",
+		DSTName:         "Vladivostok Summer Time",
 		Link:            "",
 	},
 	"Asia/Yakutsk": {
@@ -4312,6 +4974,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       540,
 		SDTAbbreviation: "+09",
 		DSTAbbreviation: "+09",
+		SDTName:         "Yakutsk Standard Time",
+		DSTName:         "Yakutsk Summer Time",
 		Link:            "",
 	},
 	"Asia/Yangon": {
@@ -4322,6 +4986,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       390,
 		SDTAbbreviation: "+0630",
 		DSTAbbreviation: "+0630",
+		SDTName:         "",
+		DSTName:         "",
 		Link:            "",
 	},
 	"Asia/Yekaterinburg": {
@@ -4332,6 +4998,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       300,
 		SDTAbbreviation: "+05",
 		DSTAbbreviation: "+05",
+		SDTName:         "Yekaterinburg Standard Time",
+		DSTName:         "Yekaterinburg Summer Time",
 		Link:            "",
 	},
 	"Asia/Yerevan": {
@@ -4342,6 +5010,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       240,
 		SDTAbbreviation: "+04",
 		DSTAbbreviation: "+04",
+		SDTName:         "Armenia Standard Time",
+		DSTName:         "Armenia Summer Time",
 		Link:            "",
 	},
 	"Atlantic/Azores": {
@@ -4352,6 +5022,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       0,
 		SDTAbbreviation: "-01",
 		DSTAbbreviation: "+00",
+		SDTName:         "Azores Standard Time",
+		DSTName:         "Azores Summer Time",
 		Link:            "",
 	},
 	"Atlantic/Bermuda": {
@@ -4362,6 +5034,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -180,
 		SDTAbbreviation: "AST",
 		DSTAbbreviation: "ADT",
+		SDTName:         "Atlantic Standard Time",
+		DSTName:         "Atlantic Daylight Time",
 		Link:            "",
 	},
 	"Atlantic/Canary": {
@@ -4372,6 +5046,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       60,
 		SDTAbbreviation: "WET",
 		DSTAbbreviation: "WEST",
+		SDTName:         "Western European Standard Time",
+		DSTName:         "Western European Summer Time",
 		Link:            "",
 	},
 	"Atlantic/Cape_Verde": {
@@ -4382,6 +5058,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -60,
 		SDTAbbreviation: "-01",
 		DSTAbbreviation: "-01",
+		SDTName:         "Cape Verde Standard Time",
+		DSTName:         "Cape Verde Summer Time",
 		Link:            "",
 	},
 	"Atlantic/Faeroe": {
@@ -4392,6 +5070,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       60,
 		SDTAbbreviation: "WET",
 		DSTAbbreviation: "WEST",
+		SDTName:         "Western European Standard Time",
+		DSTName:         "Western European Summer Time",
 		Link:            "Atlantic/Faroe",
 	},
 	"Atlantic/Faroe": {
@@ -4402,6 +5082,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       60,
 		SDTAbbreviation: "WET",
 		DSTAbbreviation: "WEST",
+		SDTName:         "",
+		DSTName:         "",
 		Link:            "",
 	},
 	"Atlantic/Jan_Mayen": {
@@ -4412,6 +5094,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       120,
 		SDTAbbreviation: "CET",
 		DSTAbbreviation: "CEST",
+		SDTName:         "",
+		DSTName:         "",
 		Link:            "Europe/Berlin",
 	},
 	"Atlantic/Madeira": {
@@ -4422,6 +5106,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       60,
 		SDTAbbreviation: "WET",
 		DSTAbbreviation: "WEST",
+		SDTName:         "Western European Standard Time",
+		DSTName:         "Western European Summer Time",
 		Link:            "",
 	},
 	"Atlantic/Reykjavik": {
@@ -4432,6 +5118,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       0,
 		SDTAbbreviation: "GMT",
 		DSTAbbreviation: "GMT",
+		SDTName:         "Greenwich Mean Time",
+		DSTName:         "",
 		Link:            "Africa/Abidjan",
 	},
 	"Atlantic/South_Georgia": {
@@ -4442,6 +5130,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -120,
 		SDTAbbreviation: "-02",
 		DSTAbbreviation: "-02",
+		SDTName:         "South Georgia Time",
+		DSTName:         "",
 		Link:            "",
 	},
 	"Atlantic/St_Helena": {
@@ -4452,6 +5142,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       0,
 		SDTAbbreviation: "GMT",
 		DSTAbbreviation: "GMT",
+		SDTName:         "Greenwich Mean Time",
+		DSTName:         "",
 		Link:            "Africa/Abidjan",
 	},
 	"Atlantic/Stanley": {
@@ -4462,6 +5154,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -180,
 		SDTAbbreviation: "-03",
 		DSTAbbreviation: "-03",
+		SDTName:         "Falkland Islands Standard Time",
+		DSTName:         "Falkland Islands Summer Time",
 		Link:            "",
 	},
 	"Australia/ACT": {
@@ -4472,6 +5166,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       660,
 		SDTAbbreviation: "AEST",
 		DSTAbbreviation: "AEDT",
+		SDTName:         "",
+		DSTName:         "",
 		Link:            "Australia/Sydney",
 	},
 	"Australia/Adelaide": {
@@ -4482,6 +5178,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       630,
 		SDTAbbreviation: "ACST",
 		DSTAbbreviation: "ACDT",
+		SDTName:         "Australian Central Standard Time",
+		DSTName:         "Australian Central Daylight Time",
 		Link:            "",
 	},
 	"Australia/Brisbane": {
@@ -4492,6 +5190,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       600,
 		SDTAbbreviation: "AEST",
 		DSTAbbreviation: "AEST",
+		SDTName:         "Australian Eastern Standard Time",
+		DSTName:         "Australian Eastern Daylight Time",
 		Link:            "",
 	},
 	"Australia/Broken_Hill": {
@@ -4502,6 +5202,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       630,
 		SDTAbbreviation: "ACST",
 		DSTAbbreviation: "ACDT",
+		SDTName:         "Australian Central Standard Time",
+		DSTName:         "Australian Central Daylight Time",
 		Link:            "",
 	},
 	"Australia/Canberra": {
@@ -4512,6 +5214,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       660,
 		SDTAbbreviation: "AEST",
 		DSTAbbreviation: "AEDT",
+		SDTName:         "",
+		DSTName:         "",
 		Link:            "Australia/Sydney",
 	},
 	"Australia/Currie": {
@@ -4522,6 +5226,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       660,
 		SDTAbbreviation: "AEST",
 		DSTAbbreviation: "AEDT",
+		SDTName:         "",
+		DSTName:         "",
 		Link:            "Australia/Hobart",
 	},
 	"Australia/Darwin": {
@@ -4532,6 +5238,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       570,
 		SDTAbbreviation: "ACST",
 		DSTAbbreviation: "ACST",
+		SDTName:         "Australian Central Standard Time",
+		DSTName:         "Australian Central Daylight Time",
 		Link:            "",
 	},
 	"Australia/Eucla": {
@@ -4542,6 +5250,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       525,
 		SDTAbbreviation: "+0845",
 		DSTAbbreviation: "+0845",
+		SDTName:         "Australian Central Western Standard Time",
+		DSTName:         "Australian Central Western Daylight Time",
 		Link:            "",
 	},
 	"Australia/Hobart": {
@@ -4552,6 +5262,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       660,
 		SDTAbbreviation: "AEST",
 		DSTAbbreviation: "AEDT",
+		SDTName:         "Australian Eastern Standard Time",
+		DSTName:         "Australian Eastern Daylight Time",
 		Link:            "",
 	},
 	"Australia/LHI": {
@@ -4562,6 +5274,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       660,
 		SDTAbbreviation: "+1030",
 		DSTAbbreviation: "+11",
+		SDTName:         "",
+		DSTName:         "",
 		Link:            "Australia/Lord_Howe",
 	},
 	"Australia/Lindeman": {
@@ -4572,6 +5286,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       600,
 		SDTAbbreviation: "AEST",
 		DSTAbbreviation: "AEST",
+		SDTName:         "Australian Eastern Standard Time",
+		DSTName:         "Australian Eastern Daylight Time",
 		Link:            "",
 	},
 	"Australia/Lord_Howe": {
@@ -4582,6 +5298,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       660,
 		SDTAbbreviation: "+1030",
 		DSTAbbreviation: "+11",
+		SDTName:         "Lord Howe Standard Time",
+		DSTName:         "Lord Howe Daylight Time",
 		Link:            "",
 	},
 	"Australia/Melbourne": {
@@ -4592,6 +5310,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       660,
 		SDTAbbreviation: "AEST",
 		DSTAbbreviation: "AEDT",
+		SDTName:         "Australian Eastern Standard Time",
+		DSTName:         "Australian Eastern Daylight Time",
 		Link:            "",
 	},
 	"Australia/NSW": {
@@ -4602,6 +5322,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       660,
 		SDTAbbreviation: "AEST",
 		DSTAbbreviation: "AEDT",
+		SDTName:         "",
+		DSTName:         "",
 		Link:            "Australia/Sydney",
 	},
 	"Australia/North": {
@@ -4612,6 +5334,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       570,
 		SDTAbbreviation: "ACST",
 		DSTAbbreviation: "ACST",
+		SDTName:         "",
+		DSTName:         "",
 		Link:            "Australia/Darwin",
 	},
 	"Australia/Perth": {
@@ -4622,6 +5346,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       480,
 		SDTAbbreviation: "AWST",
 		DSTAbbreviation: "AWST",
+		SDTName:         "Australian Western Standard Time",
+		DSTName:         "Australian Western Daylight Time",
 		Link:            "",
 	},
 	"Australia/Queensland": {
@@ -4632,6 +5358,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       600,
 		SDTAbbreviation: "AEST",
 		DSTAbbreviation: "AEST",
+		SDTName:         "",
+		DSTName:         "",
 		Link:            "Australia/Brisbane",
 	},
 	"Australia/South": {
@@ -4642,6 +5370,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       630,
 		SDTAbbreviation: "ACST",
 		DSTAbbreviation: "ACDT",
+		SDTName:         "",
+		DSTName:         "",
 		Link:            "Australia/Adelaide",
 	},
 	"Australia/Sydney": {
@@ -4652,6 +5382,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       660,
 		SDTAbbreviation: "AEST",
 		DSTAbbreviation: "AEDT",
+		SDTName:         "Australian Eastern Standard Time",
+		DSTName:         "Australian Eastern Daylight Time",
 		Link:            "",
 	},
 	"Australia/Tasmania": {
@@ -4662,6 +5394,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       660,
 		SDTAbbreviation: "AEST",
 		DSTAbbreviation: "AEDT",
+		SDTName:         "",
+		DSTName:         "",
 		Link:            "Australia/Hobart",
 	},
 	"Australia/Victoria": {
@@ -4672,6 +5406,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       660,
 		SDTAbbreviation: "AEST",
 		DSTAbbreviation: "AEDT",
+		SDTName:         "",
+		DSTName:         "",
 		Link:            "Australia/Melbourne",
 	},
 	"Australia/West": {
@@ -4682,6 +5418,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       480,
 		SDTAbbreviation: "AWST",
 		DSTAbbreviation: "AWST",
+		SDTName:         "",
+		DSTName:         "",
 		Link:            "Australia/Perth",
 	},
 	"Australia/Yancowinna": {
@@ -4692,6 +5430,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       630,
 		SDTAbbreviation: "ACST",
 		DSTAbbreviation: "ACDT",
+		SDTName:         "",
+		DSTName:         "",
 		Link:            "Australia/Broken_Hill",
 	},
 	"Brazil/Acre": {
@@ -4702,6 +5442,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -300,
 		SDTAbbreviation: "-05",
 		DSTAbbreviation: "-05",
+		SDTName:         "",
+		DSTName:         "",
 		Link:            "America/Rio_Branco",
 	},
 	"Brazil/DeNoronha": {
@@ -4712,6 +5454,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -120,
 		SDTAbbreviation: "-02",
 		DSTAbbreviation: "-02",
+		SDTName:         "",
+		DSTName:         "",
 		Link:            "America/Noronha",
 	},
 	"Brazil/East": {
@@ -4722,6 +5466,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -180,
 		SDTAbbreviation: "-03",
 		DSTAbbreviation: "-03",
+		SDTName:         "",
+		DSTName:         "",
 		Link:            "America/Sao_Paulo",
 	},
 	"Brazil/West": {
@@ -4732,6 +5478,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -240,
 		SDTAbbreviation: "-04",
 		DSTAbbreviation: "-04",
+		SDTName:         "",
+		DSTName:         "",
 		Link:            "America/Manaus",
 	},
 	"CET": {
@@ -4742,6 +5490,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       120,
 		SDTAbbreviation: "CET",
 		DSTAbbreviation: "CEST",
+		SDTName:         "",
+		DSTName:         "",
 		Link:            "Europe/Brussels",
 	},
 	"CST6CDT": {
@@ -4752,6 +5502,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -300,
 		SDTAbbreviation: "CST",
 		DSTAbbreviation: "CDT",
+		SDTName:         "",
+		DSTName:         "",
 		Link:            "America/Chicago",
 	},
 	"Canada/Atlantic": {
@@ -4762,6 +5514,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -180,
 		SDTAbbreviation: "AST",
 		DSTAbbreviation: "ADT",
+		SDTName:         "",
+		DSTName:         "",
 		Link:            "America/Halifax",
 	},
 	"Canada/Central": {
@@ -4772,6 +5526,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -300,
 		SDTAbbreviation: "CST",
 		DSTAbbreviation: "CDT",
+		SDTName:         "",
+		DSTName:         "",
 		Link:            "America/Winnipeg",
 	},
 	"Canada/Eastern": {
@@ -4782,6 +5538,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -240,
 		SDTAbbreviation: "EST",
 		DSTAbbreviation: "EDT",
+		SDTName:         "",
+		DSTName:         "",
 		Link:            "America/Toronto",
 	},
 	"Canada/Mountain": {
@@ -4792,6 +5550,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -360,
 		SDTAbbreviation: "MST",
 		DSTAbbreviation: "MDT",
+		SDTName:         "",
+		DSTName:         "",
 		Link:            "America/Edmonton",
 	},
 	"Canada/Newfoundland": {
@@ -4802,6 +5562,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -150,
 		SDTAbbreviation: "NST",
 		DSTAbbreviation: "NDT",
+		SDTName:         "",
+		DSTName:         "",
 		Link:            "America/St_Johns",
 	},
 	"Canada/Pacific": {
@@ -4812,6 +5574,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -420,
 		SDTAbbreviation: "PST",
 		DSTAbbreviation: "PDT",
+		SDTName:         "",
+		DSTName:         "",
 		Link:            "America/Vancouver",
 	},
 	"Canada/Saskatchewan": {
@@ -4822,6 +5586,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -360,
 		SDTAbbreviation: "CST",
 		DSTAbbreviation: "CST",
+		SDTName:         "",
+		DSTName:         "",
 		Link:            "America/Regina",
 	},
 	"Canada/Yukon": {
@@ -4832,6 +5598,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -420,
 		SDTAbbreviation: "MST",
 		DSTAbbreviation: "MST",
+		SDTName:         "",
+		DSTName:         "",
 		Link:            "America/Whitehorse",
 	},
 	"Chile/Continental": {
@@ -4842,6 +5610,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -180,
 		SDTAbbreviation: "-04",
 		DSTAbbreviation: "-03",
+		SDTName:         "",
+		DSTName:         "",
 		Link:            "America/Santiago",
 	},
 	"Chile/EasterIsland": {
@@ -4852,6 +5622,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -300,
 		SDTAbbreviation: "-06",
 		DSTAbbreviation: "-05",
+		SDTName:         "",
+		DSTName:         "",
 		Link:            "Pacific/Easter",
 	},
 	"Cuba": {
@@ -4862,6 +5634,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -240,
 		SDTAbbreviation: "CST",
 		DSTAbbreviation: "CDT",
+		SDTName:         "",
+		DSTName:         "",
 		Link:            "America/Havana",
 	},
 	"EET": {
@@ -4872,6 +5646,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       180,
 		SDTAbbreviation: "EET",
 		DSTAbbreviation: "EEST",
+		SDTName:         "",
+		DSTName:         "",
 		Link:            "Europe/Athens",
 	},
 	"EST": {
@@ -4882,6 +5658,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -300,
 		SDTAbbreviation: "EST",
 		DSTAbbreviation: "EST",
+		SDTName:         "",
+		DSTName:         "",
 		Link:            "America/Panama",
 	},
 	"EST5EDT": {
@@ -4892,6 +5670,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -240,
 		SDTAbbreviation: "EST",
 		DSTAbbreviation: "EDT",
+		SDTName:         "",
+		DSTName:         "",
 		Link:            "America/New_York",
 	},
 	"Egypt": {
@@ -4902,6 +5682,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       180,
 		SDTAbbreviation: "EET",
 		DSTAbbreviation: "EEST",
+		SDTName:         "",
+		DSTName:         "",
 		Link:            "Africa/Cairo",
 	},
 	"Eire": {
@@ -4912,6 +5694,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       60,
 		SDTAbbreviation: "GMT",
 		DSTAbbreviation: "IST",
+		SDTName:         "",
+		DSTName:         "",
 		Link:            "Europe/Dublin",
 	},
 	"Etc/GMT": {
@@ -4922,6 +5706,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       0,
 		SDTAbbreviation: "GMT",
 		DSTAbbreviation: "GMT",
+		SDTName:         "Greenwich Mean Time",
+		DSTName:         "",
 		Link:            "",
 	},
 	"Etc/GMT+0": {
@@ -4932,6 +5718,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       0,
 		SDTAbbreviation: "GMT",
 		DSTAbbreviation: "GMT",
+		SDTName:         "",
+		DSTName:         "",
 		Link:            "Etc/GMT",
 	},
 	"Etc/GMT+1": {
@@ -4942,6 +5730,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -60,
 		SDTAbbreviation: "-01",
 		DSTAbbreviation: "-01",
+		SDTName:         "",
+		DSTName:         "",
 		Link:            "",
 	},
 	"Etc/GMT+10": {
@@ -4952,6 +5742,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -600,
 		SDTAbbreviation: "-10",
 		DSTAbbreviation: "-10",
+		SDTName:         "",
+		DSTName:         "",
 		Link:            "",
 	},
 	"Etc/GMT+11": {
@@ -4962,6 +5754,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -660,
 		SDTAbbreviation: "-11",
 		DSTAbbreviation: "-11",
+		SDTName:         "",
+		DSTName:         "",
 		Link:            "",
 	},
 	"Etc/GMT+12": {
@@ -4972,6 +5766,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -720,
 		SDTAbbreviation: "-12",
 		DSTAbbreviation: "-12",
+		SDTName:         "",
+		DSTName:         "",
 		Link:            "",
 	},
 	"Etc/GMT+2": {
@@ -4982,6 +5778,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -120,
 		SDTAbbreviation: "-02",
 		DSTAbbreviation: "-02",
+		SDTName:         "",
+		DSTName:         "",
 		Link:            "",
 	},
 	"Etc/GMT+3": {
@@ -4992,6 +5790,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -180,
 		SDTAbbreviation: "-03",
 		DSTAbbreviation: "-03",
+		SDTName:         "",
+		DSTName:         "",
 		Link:            "",
 	},
 	"Etc/GMT+4": {
@@ -5002,6 +5802,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -240,
 		SDTAbbreviation: "-04",
 		DSTAbbreviation: "-04",
+		SDTName:         "",
+		DSTName:         "",
 		Link:            "",
 	},
 	"Etc/GMT+5": {
@@ -5012,6 +5814,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -300,
 		SDTAbbreviation: "-05",
 		DSTAbbreviation: "-05",
+		SDTName:         "",
+		DSTName:         "",
 		Link:            "",
 	},
 	"Etc/GMT+6": {
@@ -5022,6 +5826,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -360,
 		SDTAbbreviation: "-06",
 		DSTAbbreviation: "-06",
+		SDTName:         "",
+		DSTName:         "",
 		Link:            "",
 	},
 	"Etc/GMT+7": {
@@ -5032,6 +5838,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -420,
 		SDTAbbreviation: "-07",
 		DSTAbbreviation: "-07",
+		SDTName:         "",
+		DSTName:         "",
 		Link:            "",
 	},
 	"Etc/GMT+8": {
@@ -5042,6 +5850,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -480,
 		SDTAbbreviation: "-08",
 		DSTAbbreviation: "-08",
+		SDTName:         "",
+		DSTName:         "",
 		Link:            "",
 	},
 	"Etc/GMT+9": {
@@ -5052,6 +5862,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -540,
 		SDTAbbreviation: "-09",
 		DSTAbbreviation: "-09",
+		SDTName:         "",
+		DSTName:         "",
 		Link:            "",
 	},
 	"Etc/GMT-0": {
@@ -5062,6 +5874,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       0,
 		SDTAbbreviation: "GMT",
 		DSTAbbreviation: "GMT",
+		SDTName:         "",
+		DSTName:         "",
 		Link:            "Etc/GMT",
 	},
 	"Etc/GMT-1": {
@@ -5072,6 +5886,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       60,
 		SDTAbbreviation: "+01",
 		DSTAbbreviation: "+01",
+		SDTName:         "",
+		DSTName:         "",
 		Link:            "",
 	},
 	"Etc/GMT-10": {
@@ -5082,6 +5898,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       600,
 		SDTAbbreviation: "+10",
 		DSTAbbreviation: "+10",
+		SDTName:         "",
+		DSTName:         "",
 		Link:            "",
 	},
 	"Etc/GMT-11": {
@@ -5092,6 +5910,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       660,
 		SDTAbbreviation: "+11",
 		DSTAbbreviation: "+11",
+		SDTName:         "",
+		DSTName:         "",
 		Link:            "",
 	},
 	"Etc/GMT-12": {
@@ -5102,6 +5922,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       720,
 		SDTAbbreviation: "+12",
 		DSTAbbreviation: "+12",
+		SDTName:         "",
+		DSTName:         "",
 		Link:            "",
 	},
 	"Etc/GMT-13": {
@@ -5112,6 +5934,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       780,
 		SDTAbbreviation: "+13",
 		DSTAbbreviation: "+13",
+		SDTName:         "",
+		DSTName:         "",
 		Link:            "",
 	},
 	"Etc/GMT-14": {
@@ -5122,6 +5946,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       840,
 		SDTAbbreviation: "+14",
 		DSTAbbreviation: "+14",
+		SDTName:         "",
+		DSTName:         "",
 		Link:            "",
 	},
 	"Etc/GMT-2": {
@@ -5132,6 +5958,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       120,
 		SDTAbbreviation: "+02",
 		DSTAbbreviation: "+02",
+		SDTName:         "",
+		DSTName:         "",
 		Link:            "",
 	},
 	"Etc/GMT-3": {
@@ -5142,6 +5970,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       180,
 		SDTAbbreviation: "+03",
 		DSTAbbreviation: "+03",
+		SDTName:         "",
+		DSTName:         "",
 		Link:            "",
 	},
 	"Etc/GMT-4": {
@@ -5152,6 +5982,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       240,
 		SDTAbbreviation: "+04",
 		DSTAbbreviation: "+04",
+		SDTName:         "",
+		DSTName:         "",
 		Link:            "",
 	},
 	"Etc/GMT-5": {
@@ -5162,6 +5994,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       300,
 		SDTAbbreviation: "+05",
 		DSTAbbreviation: "+05",
+		SDTName:         "",
+		DSTName:         "",
 		Link:            "",
 	},
 	"Etc/GMT-6": {
@@ -5172,6 +6006,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       360,
 		SDTAbbreviation: "+06",
 		DSTAbbreviation: "+06",
+		SDTName:         "",
+		DSTName:         "",
 		Link:            "",
 	},
 	"Etc/GMT-7": {
@@ -5182,6 +6018,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       420,
 		SDTAbbreviation: "+07",
 		DSTAbbreviation: "+07",
+		SDTName:         "",
+		DSTName:         "",
 		Link:            "",
 	},
 	"Etc/GMT-8": {
@@ -5192,6 +6030,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       480,
 		SDTAbbreviation: "+08",
 		DSTAbbreviation: "+08",
+		SDTName:         "",
+		DSTName:         "",
 		Link:            "",
 	},
 	"Etc/GMT-9": {
@@ -5202,6 +6042,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       540,
 		SDTAbbreviation: "+09",
 		DSTAbbreviation: "+09",
+		SDTName:         "",
+		DSTName:         "",
 		Link:            "",
 	},
 	"Etc/GMT0": {
@@ -5212,6 +6054,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       0,
 		SDTAbbreviation: "GMT",
 		DSTAbbreviation: "GMT",
+		SDTName:         "",
+		DSTName:         "",
 		Link:            "Etc/GMT",
 	},
 	"Etc/Greenwich": {
@@ -5222,6 +6066,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       0,
 		SDTAbbreviation: "GMT",
 		DSTAbbreviation: "GMT",
+		SDTName:         "",
+		DSTName:         "",
 		Link:            "Etc/GMT",
 	},
 	"Etc/UCT": {
@@ -5232,6 +6078,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       0,
 		SDTAbbreviation: "UTC",
 		DSTAbbreviation: "UTC",
+		SDTName:         "",
+		DSTName:         "",
 		Link:            "Etc/UTC",
 	},
 	"Etc/UTC": {
@@ -5242,6 +6090,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       0,
 		SDTAbbreviation: "UTC",
 		DSTAbbreviation: "UTC",
+		SDTName:         "",
+		DSTName:         "",
 		Link:            "",
 	},
 	"Etc/Universal": {
@@ -5252,6 +6102,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       0,
 		SDTAbbreviation: "UTC",
 		DSTAbbreviation: "UTC",
+		SDTName:         "",
+		DSTName:         "",
 		Link:            "Etc/UTC",
 	},
 	"Etc/Zulu": {
@@ -5262,6 +6114,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       0,
 		SDTAbbreviation: "UTC",
 		DSTAbbreviation: "UTC",
+		SDTName:         "",
+		DSTName:         "",
 		Link:            "Etc/UTC",
 	},
 	"Europe/Amsterdam": {
@@ -5272,6 +6126,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       120,
 		SDTAbbreviation: "CET",
 		DSTAbbreviation: "CEST",
+		SDTName:         "Central European Standard Time",
+		DSTName:         "Central European Summer Time",
 		Link:            "Europe/Brussels",
 	},
 	"Europe/Andorra": {
@@ -5282,6 +6138,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       120,
 		SDTAbbreviation: "CET",
 		DSTAbbreviation: "CEST",
+		SDTName:         "Central European Standard Time",
+		DSTName:         "Central European Summer Time",
 		Link:            "",
 	},
 	"Europe/Astrakhan": {
@@ -5292,6 +6150,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       240,
 		SDTAbbreviation: "+04",
 		DSTAbbreviation: "+04",
+		SDTName:         "Samara Standard Time",
+		DSTName:         "Samara Summer Time",
 		Link:            "",
 	},
 	"Europe/Athens": {
@@ -5302,6 +6162,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       180,
 		SDTAbbreviation: "EET",
 		DSTAbbreviation: "EEST",
+		SDTName:         "Eastern European Standard Time",
+		DSTName:         "Eastern European Summer Time",
 		Link:            "",
 	},
 	"Europe/Belfast": {
@@ -5312,6 +6174,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       60,
 		SDTAbbreviation: "GMT",
 		DSTAbbreviation: "BST",
+		SDTName:         "",
+		DSTName:         "",
 		Link:            "Europe/London",
 	},
 	"Europe/Belgrade": {
@@ -5322,6 +6186,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       120,
 		SDTAbbreviation: "CET",
 		DSTAbbreviation: "CEST",
+		SDTName:         "Central European Standard Time",
+		DSTName:         "Central European Summer Time",
 		Link:            "",
 	},
 	"Europe/Berlin": {
@@ -5332,6 +6198,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       120,
 		SDTAbbreviation: "CET",
 		DSTAbbreviation: "CEST",
+		SDTName:         "Central European Standard Time",
+		DSTName:         "Central European Summer Time",
 		Link:            "",
 	},
 	"Europe/Bratislava": {
@@ -5342,6 +6210,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       120,
 		SDTAbbreviation: "CET",
 		DSTAbbreviation: "CEST",
+		SDTName:         "Central European Standard Time",
+		DSTName:         "Central European Summer Time",
 		Link:            "Europe/Prague",
 	},
 	"Europe/Brussels": {
@@ -5352,6 +6222,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       120,
 		SDTAbbreviation: "CET",
 		DSTAbbreviation: "CEST",
+		SDTName:         "Central European Standard Time",
+		DSTName:         "Central European Summer Time",
 		Link:            "",
 	},
 	"Europe/Bucharest": {
@@ -5362,6 +6234,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       180,
 		SDTAbbreviation: "EET",
 		DSTAbbreviation: "EEST",
+		SDTName:         "Eastern European Standard Time",
+		DSTName:         "Eastern European Summer Time",
 		Link:            "",
 	},
 	"Europe/Budapest": {
@@ -5372,6 +6246,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       120,
 		SDTAbbreviation: "CET",
 		DSTAbbreviation: "CEST",
+		SDTName:         "Central European Standard Time",
+		DSTName:         "Central European Summer Time",
 		Link:            "",
 	},
 	"Europe/Busingen": {
@@ -5382,6 +6258,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       120,
 		SDTAbbreviation: "CET",
 		DSTAbbreviation: "CEST",
+		SDTName:         "Central European Standard Time",
+		DSTName:         "Central European Summer Time",
 		Link:            "Europe/Zurich",
 	},
 	"Europe/Chisinau": {
@@ -5392,6 +6270,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       180,
 		SDTAbbreviation: "EET",
 		DSTAbbreviation: "EEST",
+		SDTName:         "Eastern European Standard Time",
+		DSTName:         "Eastern European Summer Time",
 		Link:            "",
 	},
 	"Europe/Copenhagen": {
@@ -5402,6 +6282,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       120,
 		SDTAbbreviation: "CET",
 		DSTAbbreviation: "CEST",
+		SDTName:         "Central European Standard Time",
+		DSTName:         "Central European Summer Time",
 		Link:            "Europe/Berlin",
 	},
 	"Europe/Dublin": {
@@ -5412,6 +6294,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       60,
 		SDTAbbreviation: "GMT",
 		DSTAbbreviation: "IST",
+		SDTName:         "Greenwich Mean Time",
+		DSTName:         "",
 		Link:            "",
 	},
 	"Europe/Gibraltar": {
@@ -5422,6 +6306,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       120,
 		SDTAbbreviation: "CET",
 		DSTAbbreviation: "CEST",
+		SDTName:         "Central European Standard Time",
+		DSTName:         "Central European Summer Time",
 		Link:            "",
 	},
 	"Europe/Guernsey": {
@@ -5432,6 +6318,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       60,
 		SDTAbbreviation: "GMT",
 		DSTAbbreviation: "BST",
+		SDTName:         "Greenwich Mean Time",
+		DSTName:         "",
 		Link:            "Europe/London",
 	},
 	"Europe/Helsinki": {
@@ -5442,6 +6330,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       180,
 		SDTAbbreviation: "EET",
 		DSTAbbreviation: "EEST",
+		SDTName:         "Eastern European Standard Time",
+		DSTName:         "Eastern European Summer Time",
 		Link:            "",
 	},
 	"Europe/Isle_of_Man": {
@@ -5452,6 +6342,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       60,
 		SDTAbbreviation: "GMT",
 		DSTAbbreviation: "BST",
+		SDTName:         "Greenwich Mean Time",
+		DSTName:         "",
 		Link:            "Europe/London",
 	},
 	"Europe/Istanbul": {
@@ -5462,6 +6354,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       180,
 		SDTAbbreviation: "+03",
 		DSTAbbreviation: "+03",
+		SDTName:         "Türkiye Standard Time",
+		DSTName:         "Türkiye Summer Time",
 		Link:            "",
 	},
 	"Europe/Jersey": {
@@ -5472,6 +6366,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       60,
 		SDTAbbreviation: "GMT",
 		DSTAbbreviation: "BST",
+		SDTName:         "Greenwich Mean Time",
+		DSTName:         "",
 		Link:            "Europe/London",
 	},
 	"Europe/Kaliningrad": {
@@ -5482,6 +6378,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       120,
 		SDTAbbreviation: "EET",
 		DSTAbbreviation: "EET",
+		SDTName:         "Eastern European Standard Time",
+		DSTName:         "Eastern European Summer Time",
 		Link:            "",
 	},
 	"Europe/Kiev": {
@@ -5492,6 +6390,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       180,
 		SDTAbbreviation: "EET",
 		DSTAbbreviation: "EEST",
+		SDTName:         "Eastern European Standard Time",
+		DSTName:         "Eastern European Summer Time",
 		Link:            "Europe/Kyiv",
 	},
 	"Europe/Kirov": {
@@ -5502,6 +6402,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       180,
 		SDTAbbreviation: "MSK",
 		DSTAbbreviation: "MSK",
+		SDTName:         "Moscow Standard Time",
+		DSTName:         "Moscow Summer Time",
 		Link:            "",
 	},
 	"Europe/Kyiv": {
@@ -5512,6 +6414,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       180,
 		SDTAbbreviation: "EET",
 		DSTAbbreviation: "EEST",
+		SDTName:         "",
+		DSTName:         "",
 		Link:            "",
 	},
 	"Europe/Lisbon": {
@@ -5522,6 +6426,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       60,
 		SDTAbbreviation: "WET",
 		DSTAbbreviation: "WEST",
+		SDTName:         "Western European Standard Time",
+		DSTName:         "Western European Summer Time",
 		Link:            "",
 	},
 	"Europe/Ljubljana": {
@@ -5532,6 +6438,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       120,
 		SDTAbbreviation: "CET",
 		DSTAbbreviation: "CEST",
+		SDTName:         "Central European Standard Time",
+		DSTName:         "Central European Summer Time",
 		Link:            "Europe/Belgrade",
 	},
 	"Europe/London": {
@@ -5542,6 +6450,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       60,
 		SDTAbbreviation: "GMT",
 		DSTAbbreviation: "BST",
+		SDTName:         "Greenwich Mean Time",
+		DSTName:         "",
 		Link:            "",
 	},
 	"Europe/Luxembourg": {
@@ -5552,6 +6462,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       120,
 		SDTAbbreviation: "CET",
 		DSTAbbreviation: "CEST",
+		SDTName:         "Central European Standard Time",
+		DSTName:         "Central European Summer Time",
 		Link:            "Europe/Brussels",
 	},
 	"Europe/Madrid": {
@@ -5562,6 +6474,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       120,
 		SDTAbbreviation: "CET",
 		DSTAbbreviation: "CEST",
+		SDTName:         "Central European Standard Time",
+		DSTName:         "Central European Summer Time",
 		Link:            "",
 	},
 	"Europe/Malta": {
@@ -5572,6 +6486,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       120,
 		SDTAbbreviation: "CET",
 		DSTAbbreviation: "CEST",
+		SDTName:         "Central European Standard Time",
+		DSTName:         "Central European Summer Time",
 		Link:            "",
 	},
 	"Europe/Mariehamn": {
@@ -5582,6 +6498,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       180,
 		SDTAbbreviation: "EET",
 		DSTAbbreviation: "EEST",
+		SDTName:         "Eastern European Standard Time",
+		DSTName:         "Eastern European Summer Time",
 		Link:            "Europe/Helsinki",
 	},
 	"Europe/Minsk": {
@@ -5592,6 +6510,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       180,
 		SDTAbbreviation: "+03",
 		DSTAbbreviation: "+03",
+		SDTName:         "Moscow Standard Time",
+		DSTName:         "Moscow Summer Time",
 		Link:            "",
 	},
 	"Europe/Monaco": {
@@ -5602,6 +6522,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       120,
 		SDTAbbreviation: "CET",
 		DSTAbbreviation: "CEST",
+		SDTName:         "Central European Standard Time",
+		DSTName:         "Central European Summer Time",
 		Link:            "Europe/Paris",
 	},
 	"Europe/Moscow": {
@@ -5612,6 +6534,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       180,
 		SDTAbbreviation: "MSK",
 		DSTAbbreviation: "MSK",
+		SDTName:         "Moscow Standard Time",
+		DSTName:         "Moscow Summer Time",
 		Link:            "",
 	},
 	"Europe/Nicosia": {
@@ -5622,6 +6546,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       180,
 		SDTAbbreviation: "EET",
 		DSTAbbreviation: "EEST",
+		SDTName:         "",
+		DSTName:         "",
 		Link:            "Asia/Nicosia",
 	},
 	"Europe/Oslo": {
@@ -5632,6 +6558,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       120,
 		SDTAbbreviation: "CET",
 		DSTAbbreviation: "CEST",
+		SDTName:         "Central European Standard Time",
+		DSTName:         "Central European Summer Time",
 		Link:            "Europe/Berlin",
 	},
 	"Europe/Paris": {
@@ -5642,6 +6570,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       120,
 		SDTAbbreviation: "CET",
 		DSTAbbreviation: "CEST",
+		SDTName:         "Central European Standard Time",
+		DSTName:         "Central European Summer Time",
 		Link:            "",
 	},
 	"Europe/Podgorica": {
@@ -5652,6 +6582,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       120,
 		SDTAbbreviation: "CET",
 		DSTAbbreviation: "CEST",
+		SDTName:         "Central European Standard Time",
+		DSTName:         "Central European Summer Time",
 		Link:            "Europe/Belgrade",
 	},
 	"Europe/Prague": {
@@ -5662,6 +6594,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       120,
 		SDTAbbreviation: "CET",
 		DSTAbbreviation: "CEST",
+		SDTName:         "Central European Standard Time",
+		DSTName:         "Central European Summer Time",
 		Link:            "",
 	},
 	"Europe/Riga": {
@@ -5672,6 +6606,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       180,
 		SDTAbbreviation: "EET",
 		DSTAbbreviation: "EEST",
+		SDTName:         "Eastern European Standard Time",
+		DSTName:         "Eastern European Summer Time",
 		Link:            "",
 	},
 	"Europe/Rome": {
@@ -5682,6 +6618,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       120,
 		SDTAbbreviation: "CET",
 		DSTAbbreviation: "CEST",
+		SDTName:         "Central European Standard Time",
+		DSTName:         "Central European Summer Time",
 		Link:            "",
 	},
 	"Europe/Samara": {
@@ -5692,6 +6630,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       240,
 		SDTAbbreviation: "+04",
 		DSTAbbreviation: "+04",
+		SDTName:         "Samara Standard Time",
+		DSTName:         "Samara Summer Time",
 		Link:            "",
 	},
 	"Europe/San_Marino": {
@@ -5702,6 +6642,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       120,
 		SDTAbbreviation: "CET",
 		DSTAbbreviation: "CEST",
+		SDTName:         "Central European Standard Time",
+		DSTName:         "Central European Summer Time",
 		Link:            "Europe/Rome",
 	},
 	"Europe/Sarajevo": {
@@ -5712,6 +6654,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       120,
 		SDTAbbreviation: "CET",
 		DSTAbbreviation: "CEST",
+		SDTName:         "Central European Standard Time",
+		DSTName:         "Central European Summer Time",
 		Link:            "Europe/Belgrade",
 	},
 	"Europe/Saratov": {
@@ -5722,6 +6666,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       240,
 		SDTAbbreviation: "+04",
 		DSTAbbreviation: "+04",
+		SDTName:         "Samara Standard Time",
+		DSTName:         "Samara Summer Time",
 		Link:            "",
 	},
 	"Europe/Simferopol": {
@@ -5732,6 +6678,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       180,
 		SDTAbbreviation: "MSK",
 		DSTAbbreviation: "MSK",
+		SDTName:         "Moscow Standard Time",
+		DSTName:         "Moscow Summer Time",
 		Link:            "",
 	},
 	"Europe/Skopje": {
@@ -5742,6 +6690,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       120,
 		SDTAbbreviation: "CET",
 		DSTAbbreviation: "CEST",
+		SDTName:         "Central European Standard Time",
+		DSTName:         "Central European Summer Time",
 		Link:            "Europe/Belgrade",
 	},
 	"Europe/Sofia": {
@@ -5752,6 +6702,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       180,
 		SDTAbbreviation: "EET",
 		DSTAbbreviation: "EEST",
+		SDTName:         "Eastern European Standard Time",
+		DSTName:         "Eastern European Summer Time",
 		Link:            "",
 	},
 	"Europe/Stockholm": {
@@ -5762,6 +6714,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       120,
 		SDTAbbreviation: "CET",
 		DSTAbbreviation: "CEST",
+		SDTName:         "Central European Standard Time",
+		DSTName:         "Central European Summer Time",
 		Link:            "Europe/Berlin",
 	},
 	"Europe/Tallinn": {
@@ -5772,6 +6726,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       180,
 		SDTAbbreviation: "EET",
 		DSTAbbreviation: "EEST",
+		SDTName:         "Eastern European Standard Time",
+		DSTName:         "Eastern European Summer Time",
 		Link:            "",
 	},
 	"Europe/Tirane": {
@@ -5782,6 +6738,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       120,
 		SDTAbbreviation: "CET",
 		DSTAbbreviation: "CEST",
+		SDTName:         "Central European Standard Time",
+		DSTName:         "Central European Summer Time",
 		Link:            "",
 	},
 	"Europe/Tiraspol": {
@@ -5792,6 +6750,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       180,
 		SDTAbbreviation: "EET",
 		DSTAbbreviation: "EEST",
+		SDTName:         "",
+		DSTName:         "",
 		Link:            "Europe/Chisinau",
 	},
 	"Europe/Ulyanovsk": {
@@ -5802,6 +6762,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       240,
 		SDTAbbreviation: "+04",
 		DSTAbbreviation: "+04",
+		SDTName:         "Samara Standard Time",
+		DSTName:         "Samara Summer Time",
 		Link:            "",
 	},
 	"Europe/Uzhgorod": {
@@ -5812,6 +6774,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       180,
 		SDTAbbreviation: "EET",
 		DSTAbbreviation: "EEST",
+		SDTName:         "",
+		DSTName:         "",
 		Link:            "Europe/Kyiv",
 	},
 	"Europe/Vaduz": {
@@ -5822,6 +6786,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       120,
 		SDTAbbreviation: "CET",
 		DSTAbbreviation: "CEST",
+		SDTName:         "Central European Standard Time",
+		DSTName:         "Central European Summer Time",
 		Link:            "Europe/Zurich",
 	},
 	"Europe/Vatican": {
@@ -5832,6 +6798,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       120,
 		SDTAbbreviation: "CET",
 		DSTAbbreviation: "CEST",
+		SDTName:         "Central European Standard Time",
+		DSTName:         "Central European Summer Time",
 		Link:            "Europe/Rome",
 	},
 	"Europe/Vienna": {
@@ -5842,6 +6810,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       120,
 		SDTAbbreviation: "CET",
 		DSTAbbreviation: "CEST",
+		SDTName:         "Central European Standard Time",
+		DSTName:         "Central European Summer Time",
 		Link:            "",
 	},
 	"Europe/Vilnius": {
@@ -5852,6 +6822,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       180,
 		SDTAbbreviation: "EET",
 		DSTAbbreviation: "EEST",
+		SDTName:         "Eastern European Standard Time",
+		DSTName:         "Eastern European Summer Time",
 		Link:            "",
 	},
 	"Europe/Volgograd": {
@@ -5862,6 +6834,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       180,
 		SDTAbbreviation: "MSK",
 		DSTAbbreviation: "MSK",
+		SDTName:         "Moscow Standard Time",
+		DSTName:         "Moscow Summer Time",
 		Link:            "",
 	},
 	"Europe/Warsaw": {
@@ -5872,6 +6846,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       120,
 		SDTAbbreviation: "CET",
 		DSTAbbreviation: "CEST",
+		SDTName:         "Central European Standard Time",
+		DSTName:         "Central European Summer Time",
 		Link:            "",
 	},
 	"Europe/Zagreb": {
@@ -5882,6 +6858,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       120,
 		SDTAbbreviation: "CET",
 		DSTAbbreviation: "CEST",
+		SDTName:         "Central European Standard Time",
+		DSTName:         "Central European Summer Time",
 		Link:            "Europe/Belgrade",
 	},
 	"Europe/Zaporozhye": {
@@ -5892,6 +6870,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       180,
 		SDTAbbreviation: "EET",
 		DSTAbbreviation: "EEST",
+		SDTName:         "",
+		DSTName:         "",
 		Link:            "Europe/Kyiv",
 	},
 	"Europe/Zurich": {
@@ -5902,6 +6882,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       120,
 		SDTAbbreviation: "CET",
 		DSTAbbreviation: "CEST",
+		SDTName:         "Central European Standard Time",
+		DSTName:         "Central European Summer Time",
 		Link:            "",
 	},
 	"Factory": {
@@ -5912,6 +6894,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       0,
 		SDTAbbreviation: "-00",
 		DSTAbbreviation: "-00",
+		SDTName:         "",
+		DSTName:         "",
 		Link:            "",
 	},
 	"GB": {
@@ -5922,6 +6906,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       60,
 		SDTAbbreviation: "GMT",
 		DSTAbbreviation: "BST",
+		SDTName:         "",
+		DSTName:         "",
 		Link:            "Europe/London",
 	},
 	"GB-Eire": {
@@ -5932,6 +6918,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       60,
 		SDTAbbreviation: "GMT",
 		DSTAbbreviation: "BST",
+		SDTName:         "",
+		DSTName:         "",
 		Link:            "Europe/London",
 	},
 	"GMT": {
@@ -5942,6 +6930,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       0,
 		SDTAbbreviation: "GMT",
 		DSTAbbreviation: "GMT",
+		SDTName:         "",
+		DSTName:         "",
 		Link:            "Etc/GMT",
 	},
 	"GMT+0": {
@@ -5952,6 +6942,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       0,
 		SDTAbbreviation: "GMT",
 		DSTAbbreviation: "GMT",
+		SDTName:         "",
+		DSTName:         "",
 		Link:            "Etc/GMT",
 	},
 	"GMT-0": {
@@ -5962,6 +6954,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       0,
 		SDTAbbreviation: "GMT",
 		DSTAbbreviation: "GMT",
+		SDTName:         "",
+		DSTName:         "",
 		Link:            "Etc/GMT",
 	},
 	"GMT0": {
@@ -5972,6 +6966,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       0,
 		SDTAbbreviation: "GMT",
 		DSTAbbreviation: "GMT",
+		SDTName:         "",
+		DSTName:         "",
 		Link:            "Etc/GMT",
 	},
 	"Greenwich": {
@@ -5982,6 +6978,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       0,
 		SDTAbbreviation: "GMT",
 		DSTAbbreviation: "GMT",
+		SDTName:         "",
+		DSTName:         "",
 		Link:            "Etc/GMT",
 	},
 	"HST": {
@@ -5992,6 +6990,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -600,
 		SDTAbbreviation: "HST",
 		DSTAbbreviation: "HST",
+		SDTName:         "",
+		DSTName:         "",
 		Link:            "Pacific/Honolulu",
 	},
 	"Hongkong": {
@@ -6002,6 +7002,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       480,
 		SDTAbbreviation: "HKT",
 		DSTAbbreviation: "HKT",
+		SDTName:         "",
+		DSTName:         "",
 		Link:            "Asia/Hong_Kong",
 	},
 	"Iceland": {
@@ -6012,6 +7014,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       0,
 		SDTAbbreviation: "GMT",
 		DSTAbbreviation: "GMT",
+		SDTName:         "",
+		DSTName:         "",
 		Link:            "Africa/Abidjan",
 	},
 	"Indian/Antananarivo": {
@@ -6022,6 +7026,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       180,
 		SDTAbbreviation: "EAT",
 		DSTAbbreviation: "EAT",
+		SDTName:         "East Africa Time",
+		DSTName:         "",
 		Link:            "Africa/Nairobi",
 	},
 	"Indian/Chagos": {
@@ -6032,6 +7038,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       360,
 		SDTAbbreviation: "+06",
 		DSTAbbreviation: "+06",
+		SDTName:         "Indian Ocean Time",
+		DSTName:         "",
 		Link:            "",
 	},
 	"Indian/Christmas": {
@@ -6042,6 +7050,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       420,
 		SDTAbbreviation: "+07",
 		DSTAbbreviation: "+07",
+		SDTName:         "Christmas Island Time",
+		DSTName:         "",
 		Link:            "Asia/Bangkok",
 	},
 	"Indian/Cocos": {
@@ -6052,6 +7062,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       390,
 		SDTAbbreviation: "+0630",
 		DSTAbbreviation: "+0630",
+		SDTName:         "Cocos Islands Time",
+		DSTName:         "",
 		Link:            "Asia/Yangon",
 	},
 	"Indian/Comoro": {
@@ -6062,6 +7074,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       180,
 		SDTAbbreviation: "EAT",
 		DSTAbbreviation: "EAT",
+		SDTName:         "East Africa Time",
+		DSTName:         "",
 		Link:            "Africa/Nairobi",
 	},
 	"Indian/Kerguelen": {
@@ -6072,6 +7086,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       300,
 		SDTAbbreviation: "+05",
 		DSTAbbreviation: "+05",
+		SDTName:         "French Southern & Antarctic Time",
+		DSTName:         "",
 		Link:            "Indian/Maldives",
 	},
 	"Indian/Mahe": {
@@ -6082,6 +7098,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       240,
 		SDTAbbreviation: "+04",
 		DSTAbbreviation: "+04",
+		SDTName:         "Seychelles Time",
+		DSTName:         "",
 		Link:            "Asia/Dubai",
 	},
 	"Indian/Maldives": {
@@ -6092,6 +7110,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       300,
 		SDTAbbreviation: "+05",
 		DSTAbbreviation: "+05",
+		SDTName:         "Maldives Time",
+		DSTName:         "",
 		Link:            "",
 	},
 	"Indian/Mauritius": {
@@ -6102,6 +7122,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       240,
 		SDTAbbreviation: "+04",
 		DSTAbbreviation: "+04",
+		SDTName:         "Mauritius Standard Time",
+		DSTName:         "Mauritius Summer Time",
 		Link:            "",
 	},
 	"Indian/Mayotte": {
@@ -6112,6 +7134,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       180,
 		SDTAbbreviation: "EAT",
 		DSTAbbreviation: "EAT",
+		SDTName:         "East Africa Time",
+		DSTName:         "",
 		Link:            "Africa/Nairobi",
 	},
 	"Indian/Reunion": {
@@ -6122,6 +7146,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       240,
 		SDTAbbreviation: "+04",
 		DSTAbbreviation: "+04",
+		SDTName:         "Réunion Time",
+		DSTName:         "",
 		Link:            "Asia/Dubai",
 	},
 	"Iran": {
@@ -6132,6 +7158,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       210,
 		SDTAbbreviation: "+0330",
 		DSTAbbreviation: "+0330",
+		SDTName:         "",
+		DSTName:         "",
 		Link:            "Asia/Tehran",
 	},
 	"Israel": {
@@ -6142,6 +7170,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       180,
 		SDTAbbreviation: "IST",
 		DSTAbbreviation: "IDT",
+		SDTName:         "",
+		DSTName:         "",
 		Link:            "Asia/Jerusalem",
 	},
 	"Jamaica": {
@@ -6152,6 +7182,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -300,
 		SDTAbbreviation: "EST",
 		DSTAbbreviation: "EST",
+		SDTName:         "",
+		DSTName:         "",
 		Link:            "America/Jamaica",
 	},
 	"Japan": {
@@ -6162,6 +7194,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       540,
 		SDTAbbreviation: "JST",
 		DSTAbbreviation: "JST",
+		SDTName:         "",
+		DSTName:         "",
 		Link:            "Asia/Tokyo",
 	},
 	"Kwajalein": {
@@ -6172,6 +7206,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       720,
 		SDTAbbreviation: "+12",
 		DSTAbbreviation: "+12",
+		SDTName:         "",
+		DSTName:         "",
 		Link:            "Pacific/Kwajalein",
 	},
 	"Libya": {
@@ -6182,6 +7218,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       120,
 		SDTAbbreviation: "EET",
 		DSTAbbreviation: "EET",
+		SDTName:         "",
+		DSTName:         "",
 		Link:            "Africa/Tripoli",
 	},
 	"MET": {
@@ -6192,6 +7230,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       120,
 		SDTAbbreviation: "CET",
 		DSTAbbreviation: "CEST",
+		SDTName:         "",
+		DSTName:         "",
 		Link:            "Europe/Brussels",
 	},
 	"MST": {
@@ -6202,6 +7242,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -420,
 		SDTAbbreviation: "MST",
 		DSTAbbreviation: "MST",
+		SDTName:         "",
+		DSTName:         "",
 		Link:            "America/Phoenix",
 	},
 	"MST7MDT": {
@@ -6212,6 +7254,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -360,
 		SDTAbbreviation: "MST",
 		DSTAbbreviation: "MDT",
+		SDTName:         "",
+		DSTName:         "",
 		Link:            "America/Denver",
 	},
 	"Mexico/BajaNorte": {
@@ -6222,6 +7266,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -420,
 		SDTAbbreviation: "PST",
 		DSTAbbreviation: "PDT",
+		SDTName:         "",
+		DSTName:         "",
 		Link:            "America/Tijuana",
 	},
 	"Mexico/BajaSur": {
@@ -6232,6 +7278,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -420,
 		SDTAbbreviation: "MST",
 		DSTAbbreviation: "MST",
+		SDTName:         "",
+		DSTName:         "",
 		Link:            "America/Mazatlan",
 	},
 	"Mexico/General": {
@@ -6242,6 +7290,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -360,
 		SDTAbbreviation: "CST",
 		DSTAbbreviation: "CST",
+		SDTName:         "",
+		DSTName:         "",
 		Link:            "America/Mexico_City",
 	},
 	"NZ": {
@@ -6252,6 +7302,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       780,
 		SDTAbbreviation: "NZST",
 		DSTAbbreviation: "NZDT",
+		SDTName:         "",
+		DSTName:         "",
 		Link:            "Pacific/Auckland",
 	},
 	"NZ-CHAT": {
@@ -6262,6 +7314,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       825,
 		SDTAbbreviation: "+1245",
 		DSTAbbreviation: "+1345",
+		SDTName:         "",
+		DSTName:         "",
 		Link:            "Pacific/Chatham",
 	},
 	"Navajo": {
@@ -6272,6 +7326,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -360,
 		SDTAbbreviation: "MST",
 		DSTAbbreviation: "MDT",
+		SDTName:         "",
+		DSTName:         "",
 		Link:            "America/Denver",
 	},
 	"PRC": {
@@ -6282,6 +7338,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       480,
 		SDTAbbreviation: "CST",
 		DSTAbbreviation: "CST",
+		SDTName:         "",
+		DSTName:         "",
 		Link:            "Asia/Shanghai",
 	},
 	"PST8PDT": {
@@ -6292,6 +7350,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -420,
 		SDTAbbreviation: "PST",
 		DSTAbbreviation: "PDT",
+		SDTName:         "",
+		DSTName:         "",
 		Link:            "America/Los_Angeles",
 	},
 	"Pacific/Apia": {
@@ -6302,6 +7362,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       780,
 		SDTAbbreviation: "+13",
 		DSTAbbreviation: "+13",
+		SDTName:         "Samoa Standard Time",
+		DSTName:         "Samoa Daylight Time",
 		Link:            "",
 	},
 	"Pacific/Auckland": {
@@ -6312,6 +7374,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       780,
 		SDTAbbreviation: "NZST",
 		DSTAbbreviation: "NZDT",
+		SDTName:         "New Zealand Standard Time",
+		DSTName:         "New Zealand Daylight Time",
 		Link:            "",
 	},
 	"Pacific/Bougainville": {
@@ -6322,6 +7386,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       660,
 		SDTAbbreviation: "+11",
 		DSTAbbreviation: "+11",
+		SDTName:         "",
+		DSTName:         "",
 		Link:            "",
 	},
 	"Pacific/Chatham": {
@@ -6332,6 +7398,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       825,
 		SDTAbbreviation: "+1245",
 		DSTAbbreviation: "+1345",
+		SDTName:         "Chatham Standard Time",
+		DSTName:         "Chatham Daylight Time",
 		Link:            "",
 	},
 	"Pacific/Chuuk": {
@@ -6342,6 +7410,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       600,
 		SDTAbbreviation: "+10",
 		DSTAbbreviation: "+10",
+		SDTName:         "",
+		DSTName:         "",
 		Link:            "Pacific/Port_Moresby",
 	},
 	"Pacific/Easter": {
@@ -6352,6 +7422,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -300,
 		SDTAbbreviation: "-06",
 		DSTAbbreviation: "-05",
+		SDTName:         "Easter Island Standard Time",
+		DSTName:         "Easter Island Summer Time",
 		Link:            "",
 	},
 	"Pacific/Efate": {
@@ -6362,6 +7434,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       660,
 		SDTAbbreviation: "+11",
 		DSTAbbreviation: "+11",
+		SDTName:         "Vanuatu Standard Time",
+		DSTName:         "Vanuatu Summer Time",
 		Link:            "",
 	},
 	"Pacific/Enderbury": {
@@ -6372,6 +7446,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       780,
 		SDTAbbreviation: "+13",
 		DSTAbbreviation: "+13",
+		SDTName:         "Phoenix Islands Time",
+		DSTName:         "",
 		Link:            "Pacific/Kanton",
 	},
 	"Pacific/Fakaofo": {
@@ -6382,6 +7458,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       780,
 		SDTAbbreviation: "+13",
 		DSTAbbreviation: "+13",
+		SDTName:         "Tokelau Time",
+		DSTName:         "",
 		Link:            "",
 	},
 	"Pacific/Fiji": {
@@ -6392,6 +7470,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       720,
 		SDTAbbreviation: "+12",
 		DSTAbbreviation: "+12",
+		SDTName:         "Fiji Standard Time",
+		DSTName:         "Fiji Summer Time",
 		Link:            "",
 	},
 	"Pacific/Funafuti": {
@@ -6402,6 +7482,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       720,
 		SDTAbbreviation: "+12",
 		DSTAbbreviation: "+12",
+		SDTName:         "Tuvalu Time",
+		DSTName:         "",
 		Link:            "Pacific/Tarawa",
 	},
 	"Pacific/Galapagos": {
@@ -6412,6 +7494,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -360,
 		SDTAbbreviation: "-06",
 		DSTAbbreviation: "-06",
+		SDTName:         "Galapagos Time",
+		DSTName:         "",
 		Link:            "",
 	},
 	"Pacific/Gambier": {
@@ -6422,6 +7506,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -540,
 		SDTAbbreviation: "-09",
 		DSTAbbreviation: "-09",
+		SDTName:         "Gambier Time",
+		DSTName:         "",
 		Link:            "",
 	},
 	"Pacific/Guadalcanal": {
@@ -6432,6 +7518,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       660,
 		SDTAbbreviation: "+11",
 		DSTAbbreviation: "+11",
+		SDTName:         "Solomon Islands Time",
+		DSTName:         "",
 		Link:            "",
 	},
 	"Pacific/Guam": {
@@ -6442,6 +7530,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       600,
 		SDTAbbreviation: "ChST",
 		DSTAbbreviation: "ChST",
+		SDTName:         "Chamorro Standard Time",
+		DSTName:         "",
 		Link:            "",
 	},
 	"Pacific/Honolulu": {
@@ -6452,6 +7542,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -600,
 		SDTAbbreviation: "HST",
 		DSTAbbreviation: "HST",
+		SDTName:         "Hawaii-Aleutian Standard Time",
+		DSTName:         "",
 		Link:            "",
 	},
 	"Pacific/Johnston": {
@@ -6462,6 +7554,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -600,
 		SDTAbbreviation: "HST",
 		DSTAbbreviation: "HST",
+		SDTName:         "",
+		DSTName:         "",
 		Link:            "Pacific/Honolulu",
 	},
 	"Pacific/Kanton": {
@@ -6472,6 +7566,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       780,
 		SDTAbbreviation: "+13",
 		DSTAbbreviation: "+13",
+		SDTName:         "",
+		DSTName:         "",
 		Link:            "",
 	},
 	"Pacific/Kiritimati": {
@@ -6482,6 +7578,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       840,
 		SDTAbbreviation: "+14",
 		DSTAbbreviation: "+14",
+		SDTName:         "Line Islands Time",
+		DSTName:         "",
 		Link:            "",
 	},
 	"Pacific/Kosrae": {
@@ -6492,6 +7590,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       660,
 		SDTAbbreviation: "+11",
 		DSTAbbreviation: "+11",
+		SDTName:         "Kosrae Time",
+		DSTName:         "",
 		Link:            "",
 	},
 	"Pacific/Kwajalein": {
@@ -6502,6 +7602,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       720,
 		SDTAbbreviation: "+12",
 		DSTAbbreviation: "+12",
+		SDTName:         "Marshall Islands Time",
+		DSTName:         "",
 		Link:            "",
 	},
 	"Pacific/Majuro": {
@@ -6512,6 +7614,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       720,
 		SDTAbbreviation: "+12",
 		DSTAbbreviation: "+12",
+		SDTName:         "Marshall Islands Time",
+		DSTName:         "",
 		Link:            "Pacific/Tarawa",
 	},
 	"Pacific/Marquesas": {
@@ -6522,6 +7626,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -570,
 		SDTAbbreviation: "-0930",
 		DSTAbbreviation: "-0930",
+		SDTName:         "Marquesas Time",
+		DSTName:         "",
 		Link:            "",
 	},
 	"Pacific/Midway": {
@@ -6532,6 +7638,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -660,
 		SDTAbbreviation: "SST",
 		DSTAbbreviation: "SST",
+		SDTName:         "American Samoa Standard Time",
+		DSTName:         "American Samoa Daylight Time",
 		Link:            "Pacific/Pago_Pago",
 	},
 	"Pacific/Nauru": {
@@ -6542,6 +7650,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       720,
 		SDTAbbreviation: "+12",
 		DSTAbbreviation: "+12",
+		SDTName:         "Nauru Time",
+		DSTName:         "",
 		Link:            "",
 	},
 	"Pacific/Niue": {
@@ -6552,6 +7662,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -660,
 		SDTAbbreviation: "-11",
 		DSTAbbreviation: "-11",
+		SDTName:         "Niue Time",
+		DSTName:         "",
 		Link:            "",
 	},
 	"Pacific/Norfolk": {
@@ -6562,6 +7674,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       720,
 		SDTAbbreviation: "+11",
 		DSTAbbreviation: "+12",
+		SDTName:         "Norfolk Island Standard Time",
+		DSTName:         "Norfolk Island Daylight Time",
 		Link:            "",
 	},
 	"Pacific/Noumea": {
@@ -6572,6 +7686,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       660,
 		SDTAbbreviation: "+11",
 		DSTAbbreviation: "+11",
+		SDTName:         "New Caledonia Standard Time",
+		DSTName:         "New Caledonia Summer Time",
 		Link:            "",
 	},
 	"Pacific/Pago_Pago": {
@@ -6582,6 +7698,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -660,
 		SDTAbbreviation: "SST",
 		DSTAbbreviation: "SST",
+		SDTName:         "American Samoa Standard Time",
+		DSTName:         "American Samoa Daylight Time",
 		Link:            "",
 	},
 	"Pacific/Palau": {
@@ -6592,6 +7710,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       540,
 		SDTAbbreviation: "+09",
 		DSTAbbreviation: "+09",
+		SDTName:         "Palau Time",
+		DSTName:         "",
 		Link:            "",
 	},
 	"Pacific/Pitcairn": {
@@ -6602,6 +7722,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -480,
 		SDTAbbreviation: "-08",
 		DSTAbbreviation: "-08",
+		SDTName:         "Pitcairn Time",
+		DSTName:         "",
 		Link:            "",
 	},
 	"Pacific/Pohnpei": {
@@ -6612,6 +7734,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       660,
 		SDTAbbreviation: "+11",
 		DSTAbbreviation: "+11",
+		SDTName:         "",
+		DSTName:         "",
 		Link:            "Pacific/Guadalcanal",
 	},
 	"Pacific/Ponape": {
@@ -6622,6 +7746,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       660,
 		SDTAbbreviation: "+11",
 		DSTAbbreviation: "+11",
+		SDTName:         "Pohnpei Time",
+		DSTName:         "",
 		Link:            "Pacific/Guadalcanal",
 	},
 	"Pacific/Port_Moresby": {
@@ -6632,6 +7758,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       600,
 		SDTAbbreviation: "+10",
 		DSTAbbreviation: "+10",
+		SDTName:         "Papua New Guinea Time",
+		DSTName:         "",
 		Link:            "",
 	},
 	"Pacific/Rarotonga": {
@@ -6642,6 +7770,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -600,
 		SDTAbbreviation: "-10",
 		DSTAbbreviation: "-10",
+		SDTName:         "Cook Islands Standard Time",
+		DSTName:         "Cook Islands Summer Time",
 		Link:            "",
 	},
 	"Pacific/Saipan": {
@@ -6652,6 +7782,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       600,
 		SDTAbbreviation: "ChST",
 		DSTAbbreviation: "ChST",
+		SDTName:         "Chamorro Standard Time",
+		DSTName:         "",
 		Link:            "Pacific/Guam",
 	},
 	"Pacific/Samoa": {
@@ -6662,6 +7794,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -660,
 		SDTAbbreviation: "SST",
 		DSTAbbreviation: "SST",
+		SDTName:         "",
+		DSTName:         "",
 		Link:            "Pacific/Pago_Pago",
 	},
 	"Pacific/Tahiti": {
@@ -6672,6 +7806,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -600,
 		SDTAbbreviation: "-10",
 		DSTAbbreviation: "-10",
+		SDTName:         "Tahiti Time",
+		DSTName:         "",
 		Link:            "",
 	},
 	"Pacific/Tarawa": {
@@ -6682,6 +7818,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       720,
 		SDTAbbreviation: "+12",
 		DSTAbbreviation: "+12",
+		SDTName:         "Gilbert Islands Time",
+		DSTName:         "",
 		Link:            "",
 	},
 	"Pacific/Tongatapu": {
@@ -6692,6 +7830,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       780,
 		SDTAbbreviation: "+13",
 		DSTAbbreviation: "+13",
+		SDTName:         "Tonga Standard Time",
+		DSTName:         "Tonga Summer Time",
 		Link:            "",
 	},
 	"Pacific/Truk": {
@@ -6702,6 +7842,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       600,
 		SDTAbbreviation: "+10",
 		DSTAbbreviation: "+10",
+		SDTName:         "Chuuk Time",
+		DSTName:         "",
 		Link:            "Pacific/Port_Moresby",
 	},
 	"Pacific/Wake": {
@@ -6712,6 +7854,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       720,
 		SDTAbbreviation: "+12",
 		DSTAbbreviation: "+12",
+		SDTName:         "Wake Island Time",
+		DSTName:         "",
 		Link:            "Pacific/Tarawa",
 	},
 	"Pacific/Wallis": {
@@ -6722,6 +7866,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       720,
 		SDTAbbreviation: "+12",
 		DSTAbbreviation: "+12",
+		SDTName:         "Wallis & Futuna Time",
+		DSTName:         "",
 		Link:            "Pacific/Tarawa",
 	},
 	"Pacific/Yap": {
@@ -6732,6 +7878,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       600,
 		SDTAbbreviation: "+10",
 		DSTAbbreviation: "+10",
+		SDTName:         "",
+		DSTName:         "",
 		Link:            "Pacific/Port_Moresby",
 	},
 	"Poland": {
@@ -6742,6 +7890,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       120,
 		SDTAbbreviation: "CET",
 		DSTAbbreviation: "CEST",
+		SDTName:         "",
+		DSTName:         "",
 		Link:            "Europe/Warsaw",
 	},
 	"Portugal": {
@@ -6752,6 +7902,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       60,
 		SDTAbbreviation: "WET",
 		DSTAbbreviation: "WEST",
+		SDTName:         "",
+		DSTName:         "",
 		Link:            "Europe/Lisbon",
 	},
 	"ROC": {
@@ -6762,6 +7914,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       480,
 		SDTAbbreviation: "CST",
 		DSTAbbreviation: "CST",
+		SDTName:         "",
+		DSTName:         "",
 		Link:            "Asia/Taipei",
 	},
 	"ROK": {
@@ -6772,6 +7926,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       540,
 		SDTAbbreviation: "KST",
 		DSTAbbreviation: "KST",
+		SDTName:         "",
+		DSTName:         "",
 		Link:            "Asia/Seoul",
 	},
 	"Singapore": {
@@ -6782,6 +7938,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       480,
 		SDTAbbreviation: "+08",
 		DSTAbbreviation: "+08",
+		SDTName:         "",
+		DSTName:         "",
 		Link:            "Asia/Singapore",
 	},
 	"Turkey": {
@@ -6792,6 +7950,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       180,
 		SDTAbbreviation: "+03",
 		DSTAbbreviation: "+03",
+		SDTName:         "",
+		DSTName:         "",
 		Link:            "Europe/Istanbul",
 	},
 	"UCT": {
@@ -6802,6 +7962,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       0,
 		SDTAbbreviation: "UTC",
 		DSTAbbreviation: "UTC",
+		SDTName:         "",
+		DSTName:         "",
 		Link:            "Etc/UTC",
 	},
 	"US/Alaska": {
@@ -6812,6 +7974,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -480,
 		SDTAbbreviation: "AKST",
 		DSTAbbreviation: "AKDT",
+		SDTName:         "",
+		DSTName:         "",
 		Link:            "America/Anchorage",
 	},
 	"US/Aleutian": {
@@ -6822,6 +7986,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -540,
 		SDTAbbreviation: "HST",
 		DSTAbbreviation: "HDT",
+		SDTName:         "",
+		DSTName:         "",
 		Link:            "America/Adak",
 	},
 	"US/Arizona": {
@@ -6832,6 +7998,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -420,
 		SDTAbbreviation: "MST",
 		DSTAbbreviation: "MST",
+		SDTName:         "",
+		DSTName:         "",
 		Link:            "America/Phoenix",
 	},
 	"US/Central": {
@@ -6842,6 +8010,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -300,
 		SDTAbbreviation: "CST",
 		DSTAbbreviation: "CDT",
+		SDTName:         "",
+		DSTName:         "",
 		Link:            "America/Chicago",
 	},
 	"US/East-Indiana": {
@@ -6852,6 +8022,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -240,
 		SDTAbbreviation: "EST",
 		DSTAbbreviation: "EDT",
+		SDTName:         "",
+		DSTName:         "",
 		Link:            "America/Indiana/Indianapolis",
 	},
 	"US/Eastern": {
@@ -6862,6 +8034,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -240,
 		SDTAbbreviation: "EST",
 		DSTAbbreviation: "EDT",
+		SDTName:         "",
+		DSTName:         "",
 		Link:            "America/New_York",
 	},
 	"US/Hawaii": {
@@ -6872,6 +8046,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -600,
 		SDTAbbreviation: "HST",
 		DSTAbbreviation: "HST",
+		SDTName:         "",
+		DSTName:         "",
 		Link:            "Pacific/Honolulu",
 	},
 	"US/Indiana-Starke": {
@@ -6882,6 +8058,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -300,
 		SDTAbbreviation: "CST",
 		DSTAbbreviation: "CDT",
+		SDTName:         "",
+		DSTName:         "",
 		Link:            "America/Indiana/Knox",
 	},
 	"US/Michigan": {
@@ -6892,6 +8070,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -240,
 		SDTAbbreviation: "EST",
 		DSTAbbreviation: "EDT",
+		SDTName:         "",
+		DSTName:         "",
 		Link:            "America/Detroit",
 	},
 	"US/Mountain": {
@@ -6902,6 +8082,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -360,
 		SDTAbbreviation: "MST",
 		DSTAbbreviation: "MDT",
+		SDTName:         "",
+		DSTName:         "",
 		Link:            "America/Denver",
 	},
 	"US/Pacific": {
@@ -6912,6 +8094,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -420,
 		SDTAbbreviation: "PST",
 		DSTAbbreviation: "PDT",
+		SDTName:         "",
+		DSTName:         "",
 		Link:            "America/Los_Angeles",
 	},
 	"US/Samoa": {
@@ -6922,6 +8106,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       -660,
 		SDTAbbreviation: "SST",
 		DSTAbbreviation: "SST",
+		SDTName:         "",
+		DSTName:         "",
 		Link:            "Pacific/Pago_Pago",
 	},
 	"UTC": {
@@ -6932,6 +8118,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       0,
 		SDTAbbreviation: "UTC",
 		DSTAbbreviation: "UTC",
+		SDTName:         "",
+		DSTName:         "",
 		Link:            "Etc/UTC",
 	},
 	"Universal": {
@@ -6942,6 +8130,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       0,
 		SDTAbbreviation: "UTC",
 		DSTAbbreviation: "UTC",
+		SDTName:         "",
+		DSTName:         "",
 		Link:            "Etc/UTC",
 	},
 	"W-SU": {
@@ -6952,6 +8142,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       180,
 		SDTAbbreviation: "MSK",
 		DSTAbbreviation: "MSK",
+		SDTName:         "",
+		DSTName:         "",
 		Link:            "Europe/Moscow",
 	},
 	"WET": {
@@ -6962,6 +8154,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       60,
 		SDTAbbreviation: "WET",
 		DSTAbbreviation: "WEST",
+		SDTName:         "",
+		DSTName:         "",
 		Link:            "Europe/Lisbon",
 	},
 	"Zulu": {
@@ -6972,6 +8166,8 @@ var Timezones = map[string]Timezone{
 		DSTOffset:       0,
 		SDTAbbreviation: "UTC",
 		DSTAbbreviation: "UTC",
+		SDTName:         "",
+		DSTName:         "",
 		Link:            "Etc/UTC",
 	},
 }
