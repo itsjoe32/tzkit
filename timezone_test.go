@@ -142,6 +142,60 @@ func TestIn(t *testing.T) {
 	}
 }
 
+func TestOffsetMinutes(t *testing.T) {
+	winter := time.Date(2026, 1, 15, 12, 0, 0, 0, time.UTC)
+	summer := time.Date(2026, 7, 15, 12, 0, 0, 0, time.UTC)
+
+	tests := []struct {
+		name string
+		zone string
+		time time.Time
+		want int
+	}{
+		{
+			name: "Denver in winter",
+			zone: "America/Denver",
+			time: winter,
+			want: -420,
+		},
+		{
+			name: "Denver in summer",
+			zone: "America/Denver",
+			time: summer,
+			want: -360,
+		},
+		{
+			name: "Tokyo",
+			zone: "Asia/Tokyo",
+			time: winter,
+			want: 540,
+		},
+		{
+			name: "New York in winter",
+			zone: "America/New_York",
+			time: winter,
+			want: -300,
+		},
+		{
+			name: "New York in summer",
+			zone: "America/New_York",
+			time: summer,
+			want: -240,
+		},
+	}
+
+	for _, tt := range tests {
+		t.Run(tt.name, func(t *testing.T) {
+			tz, _ := GetTimezone(tt.zone)
+			got := tz.OffsetMinutes(tt.time)
+
+			if got != tt.want {
+				t.Errorf("OffsetMinutes() = %d, want %d", got, tt.want)
+			}
+		})
+	}
+}
+
 func TestFormatTime(t *testing.T) {
 	// Fixed time: January 15, 2026 at 12:00:00 UTC (winter, no DST)
 	winter := time.Date(2026, 1, 15, 12, 0, 0, 0, time.UTC)

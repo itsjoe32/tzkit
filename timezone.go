@@ -53,6 +53,15 @@ func (tz Timezone) HasDST() bool {
 	return tz.SDTOffset != tz.DSTOffset
 }
 
+// OffsetMinutes returns the UTC offset in minutes for the given time,
+// accounting for whether DST is active.
+func (tz Timezone) OffsetMinutes(t time.Time) int {
+	if tz.HasDST() && tz.In(t).IsDST() {
+		return tz.DSTOffset
+	}
+	return tz.SDTOffset
+}
+
 // In converts a time.Time to this timezone.
 func (tz Timezone) In(t time.Time) time.Time {
 	loc, err := time.LoadLocation(tz.ID)
